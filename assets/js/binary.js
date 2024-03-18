@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.49/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.0","target":"arcade","targetVersion":"1.12.49","repo":"mgryszko/space-adventure"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.49/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.1","target":"arcade","targetVersion":"1.12.49","repo":"mgryszko/space-adventure"}
 // total=2478960 new=17.46% cached=77.94% other=4.60%
 (function (ectx) {
 'use strict';
@@ -625,7 +625,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P60827(s) {
+function _main___P63172(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1183,170 +1183,170 @@ switch (step) {
     s.callLocIdx = 81; s.pc = 52; return s.tmp_0;
   case 52:
     r0 = s.retval;
-    globals.mouseKind___59082 = (r0);
+    globals.mouseKind___61427 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 82; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
-    globals.startKind___59085 = (r0);
+    globals.startKind___61430 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 83; s.pc = 54; return s.tmp_0;
   case 54:
     r0 = s.retval;
-    globals.marsButtonkind___59088 = (r0);
+    globals.marsButtonkind___61433 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 84; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
-    globals.rockColKind___59091 = (r0);
+    globals.rockColKind___61436 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 85; s.pc = 56; return s.tmp_0;
   case 56:
     r0 = s.retval;
-    globals.rocketKind___59094 = (r0);
+    globals.rocketKind___61439 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 86; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
-    globals.bigRocketKind___59097 = (r0);
+    globals.bigRocketKind___61442 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 87; s.pc = 58; return s.tmp_0;
   case 58:
     r0 = s.retval;
-    globals.miniRocketMars___59100 = (r0);
+    globals.miniRocketMars___61445 = (r0);
     s.tmp_0 = SpriteKind_create__P32067_mk(s);
     s.callLocIdx = 88; s.pc = 59; return s.tmp_0;
   case 59:
     r0 = s.retval;
-    globals.creativeKind___59103 = (r0);
+    globals.creativeKind___61448 = (r0);
     s.tmp_0 = StatusBarKind_create__P34332_mk(s);
     s.callLocIdx = 89; s.pc = 60; return s.tmp_0;
   case 60:
     r0 = s.retval;
-    globals.RocksLMarsKind___59106 = (r0);
+    globals.RocksLMarsKind___61451 = (r0);
     s.tmp_0 = scene_onOverlapTile__P32048_mk(s);
-    s.tmp_0.arg0 = globals.rocketKind___59094;
+    s.tmp_0.arg0 = globals.rocketKind___61439;
     s.tmp_1 = helpers_getTileByName__P32926_mk(s);
     s.tmp_1.arg0 = "myTile0";
     s.callLocIdx = 90; s.pc = 62; return s.tmp_1;
   case 62:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = inline__P59112;
+    s.tmp_0.arg2 = inline__P61457;
     s.callLocIdx = 94; s.pc = 61; return s.tmp_0;
   case 61:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.up___31704;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P59122;
+    s.tmp_0.arg2 = inline__P61467;
     s.callLocIdx = 96; s.pc = 63; return s.tmp_0;
   case 63:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P32046_mk(s);
-    s.tmp_0.arg0 = globals.mouseKind___59082;
-    s.tmp_0.arg1 = globals.startKind___59085;
-    s.tmp_0.arg2 = inline__P59165;
+    s.tmp_0.arg0 = globals.mouseKind___61427;
+    s.tmp_0.arg1 = globals.startKind___61430;
+    s.tmp_0.arg2 = inline__P61510;
     s.callLocIdx = 108; s.pc = 64; return s.tmp_0;
   case 64:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P32046_mk(s);
-    s.tmp_0.arg0 = globals.mouseKind___59082;
-    s.tmp_0.arg1 = globals.marsButtonkind___59088;
-    s.tmp_0.arg2 = inline__P59217;
+    s.tmp_0.arg0 = globals.mouseKind___61427;
+    s.tmp_0.arg1 = globals.marsButtonkind___61433;
+    s.tmp_0.arg2 = inline__P61562;
     s.callLocIdx = 123; s.pc = 65; return s.tmp_0;
   case 65:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P32046_mk(s);
-    s.tmp_0.arg0 = globals.mouseKind___59082;
-    s.tmp_0.arg1 = globals.rockColKind___59091;
-    s.tmp_0.arg2 = inline__P59260;
+    s.tmp_0.arg0 = globals.mouseKind___61427;
+    s.tmp_0.arg1 = globals.rockColKind___61436;
+    s.tmp_0.arg2 = inline__P61605;
     s.callLocIdx = 139; s.pc = 66; return s.tmp_0;
   case 66:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.down___31706;
     s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = inline__P59344;
+    s.tmp_0.arg2 = inline__P61689;
     s.callLocIdx = 142; s.pc = 67; return s.tmp_0;
   case 67:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.left___31703;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P59356;
+    s.tmp_0.arg2 = inline__P61701;
     s.callLocIdx = 144; s.pc = 68; return s.tmp_0;
   case 68:
     r0 = s.retval;
     s.tmp_0 = scene_onOverlapTile__P32048_mk(s);
-    s.tmp_0.arg0 = globals.rocketKind___59094;
+    s.tmp_0.arg0 = globals.rocketKind___61439;
     s.tmp_1 = helpers_getTileByName__P32926_mk(s);
     s.tmp_1.arg0 = "myTile1";
     s.callLocIdx = 145; s.pc = 70; return s.tmp_1;
   case 70:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = inline__P59374;
+    s.tmp_0.arg2 = inline__P61719;
     s.callLocIdx = 171; s.pc = 69; return s.tmp_0;
   case 69:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.right___31705;
     s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = inline__P59460;
+    s.tmp_0.arg2 = inline__P61805;
     s.callLocIdx = 178; s.pc = 71; return s.tmp_0;
   case 71:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.left___31703;
     s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = inline__P59472;
+    s.tmp_0.arg2 = inline__P61817;
     s.callLocIdx = 181; s.pc = 72; return s.tmp_0;
   case 72:
     r0 = s.retval;
     s.tmp_0 = statusbars_onZero__P34395_mk(s);
-    s.tmp_0.arg0 = globals.RocksLMarsKind___59106;
-    s.tmp_0.arg1 = inline__P59483;
+    s.tmp_0.arg0 = globals.RocksLMarsKind___61451;
+    s.tmp_0.arg1 = inline__P61828;
     s.callLocIdx = 194; s.pc = 73; return s.tmp_0;
   case 73:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.right___31705;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P59533;
+    s.tmp_0.arg2 = inline__P61878;
     s.callLocIdx = 196; s.pc = 74; return s.tmp_0;
   case 74:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P32046_mk(s);
     s.tmp_0.arg0 = globals.Enemy___32071;
     s.tmp_0.arg1 = globals.Player___32068;
-    s.tmp_0.arg2 = inline__P59550;
+    s.tmp_0.arg2 = inline__P61895;
     s.callLocIdx = 199; s.pc = 75; return s.tmp_0;
   case 75:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.up___31704;
     s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = inline__P59559;
+    s.tmp_0.arg2 = inline__P61904;
     s.callLocIdx = 202; s.pc = 76; return s.tmp_0;
   case 76:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P31784_mk(s);
     s.tmp_0.arg0 = globals.down___31706;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P59571;
+    s.tmp_0.arg2 = inline__P61916;
     s.callLocIdx = 204; s.pc = 77; return s.tmp_0;
   case 77:
     r0 = s.retval;
     s.tmp_0 = scene_onOverlapTile__P32048_mk(s);
-    s.tmp_0.arg0 = globals.miniRocketMars___59100;
+    s.tmp_0.arg0 = globals.miniRocketMars___61445;
     s.tmp_1 = helpers_getTileByName__P32926_mk(s);
     s.tmp_1.arg0 = "myTile0";
     s.callLocIdx = 205; s.pc = 79; return s.tmp_1;
   case 79:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = inline__P59591;
+    s.tmp_0.arg2 = inline__P61936;
     s.callLocIdx = 209; s.pc = 78; return s.tmp_0;
   case 78:
     r0 = s.retval;
@@ -1358,21 +1358,21 @@ switch (step) {
   case 81:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = inline__P59602;
+    s.tmp_0.arg2 = inline__P61947;
     s.callLocIdx = 215; s.pc = 80; return s.tmp_0;
   case 80:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P32046_mk(s);
-    s.tmp_0.arg0 = globals.mouseKind___59082;
-    s.tmp_0.arg1 = globals.creativeKind___59103;
-    s.tmp_0.arg2 = inline__P59618;
+    s.tmp_0.arg0 = globals.mouseKind___61427;
+    s.tmp_0.arg1 = globals.creativeKind___61448;
+    s.tmp_0.arg2 = inline__P61963;
     s.callLocIdx = 231; s.pc = 82; return s.tmp_0;
   case 82:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P32046_mk(s);
-    s.tmp_0.arg0 = globals.bigRocketKind___59097;
+    s.tmp_0.arg0 = globals.bigRocketKind___61442;
     s.tmp_0.arg1 = globals.Player___32068;
-    s.tmp_0.arg2 = inline__P59681;
+    s.tmp_0.arg2 = inline__P62026;
     s.callLocIdx = 248; s.pc = 83; return s.tmp_0;
   case 83:
     r0 = s.retval;
@@ -1384,60 +1384,60 @@ switch (step) {
   case 85:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = inline__P59746;
+    s.tmp_0.arg2 = inline__P62091;
     s.callLocIdx = 254; s.pc = 84; return s.tmp_0;
   case 84:
     r0 = s.retval;
-    globals.rocketMars___59520 = (null);
-    globals.Juanito___59495 = (null);
-    globals.rocksLeftinMars___59412 = (null);
-    globals.rocket___59389 = (null);
-    globals.arrows___59328 = (null);
-    globals.color2___59325 = (0);
-    globals.fuel___59322 = (0);
-    globals.velocity___59319 = (0);
-    globals.tipPlace___59310 = (0);
-    globals.tip___59299 = (null);
-    globals.creativeModeButton___59246 = (null);
-    globals.rockCollectionButton___59237 = (null);
-    globals.bodyPlace___59210 = (0);
-    globals.body___59201 = (null);
-    globals.marsButton___59183 = (null);
-    globals.enginePlace___59158 = (0);
-    globals.engine___59149 = (null);
-    globals.astronautDirection___59127 = (0);
-    globals.astronaut___59124 = (null);
-    globals.marsMode___59278 = (0);
-    globals.Menu___59174 = (null);
-    globals.mouse___59228 = (null);
-    globals.START___59760 = (0);
-    globals.selectPlace___59313 = (0);
-    globals.ON_MARS___59383 = (0);
-    globals.ENGINE_SELECTION___59316 = (0);
-    globals.ENGINE_SELECTION___59316 = (1);
-    globals.BODY_SELECTION___59763 = (2);
-    globals.TIP_SELECTION___59765 = (3);
-    globals.TRIP_IN_SPACE___59767 = (4);
-    globals.ON_MARS___59383 = (5);
-    globals.selectPlace___59313 = (globals.START___59760);
-    r0 = pxsim.image.ofBuffer(_hex59771);
-    globals.scrapEngineImage___59772 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59774);
-    globals.modernEngineImage___59775 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59777);
-    globals.normalEngineImage___59778 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59780);
-    globals.scrapBodyImage___59781 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59783);
-    globals.normalBodyImage___59784 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59786);
-    globals.modernBodyImage___59787 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59789);
-    globals.scrapTipImage___59790 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59792);
-    globals.normalTipImage___59793 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex59795);
-    globals.modernTipImage___59796 = (r0);
+    globals.rocketMars___61865 = (null);
+    globals.Juanito___61840 = (null);
+    globals.rocksLeftinMars___61757 = (null);
+    globals.rocket___61734 = (null);
+    globals.arrows___61673 = (null);
+    globals.color2___61670 = (0);
+    globals.fuel___61667 = (0);
+    globals.velocity___61664 = (0);
+    globals.tipPlace___61655 = (0);
+    globals.tip___61644 = (null);
+    globals.creativeModeButton___61591 = (null);
+    globals.rockCollectionButton___61582 = (null);
+    globals.bodyPlace___61555 = (0);
+    globals.body___61546 = (null);
+    globals.marsButton___61528 = (null);
+    globals.enginePlace___61503 = (0);
+    globals.engine___61494 = (null);
+    globals.astronautDirection___61472 = (0);
+    globals.astronaut___61469 = (null);
+    globals.marsMode___61623 = (0);
+    globals.Menu___61519 = (null);
+    globals.mouse___61573 = (null);
+    globals.START___62105 = (0);
+    globals.selectPlace___61658 = (0);
+    globals.ON_MARS___61728 = (0);
+    globals.ENGINE_SELECTION___61661 = (0);
+    globals.ENGINE_SELECTION___61661 = (1);
+    globals.BODY_SELECTION___62108 = (2);
+    globals.TIP_SELECTION___62110 = (3);
+    globals.TRIP_IN_SPACE___62112 = (4);
+    globals.ON_MARS___61728 = (5);
+    globals.selectPlace___61658 = (globals.START___62105);
+    r0 = pxsim.image.ofBuffer(_hex62116);
+    globals.scrapEngineImage___62117 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62119);
+    globals.modernEngineImage___62120 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62122);
+    globals.normalEngineImage___62123 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62125);
+    globals.scrapBodyImage___62126 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62128);
+    globals.normalBodyImage___62129 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62131);
+    globals.modernBodyImage___62132 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62134);
+    globals.scrapTipImage___62135 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62137);
+    globals.normalTipImage___62138 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex62140);
+    globals.modernTipImage___62141 = (r0);
     s.tmp_0 = game_showLongText__P32548_mk(s);
     s.tmp_0.arg0 = "Welcome to...";
     s.tmp_0.arg1 = 5;
@@ -1467,84 +1467,84 @@ switch (step) {
   case 88:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59807);
+    r0 = pxsim.image.ofBuffer(_hex62152);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 258; s.pc = 90; return s.tmp_0;
   case 90:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59811);
+    r0 = pxsim.image.ofBuffer(_hex62156);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.mouseKind___59082;
+    s.tmp_0.arg1 = globals.mouseKind___61427;
     s.callLocIdx = 259; s.pc = 91; return s.tmp_0;
   case 91:
     r0 = s.retval;
-    globals.mouse___59228 = (r0);
+    globals.mouse___61573 = (r0);
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59816);
+    r0 = pxsim.image.ofBuffer(_hex62161);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.startKind___59085;
+    s.tmp_0.arg1 = globals.startKind___61430;
     s.callLocIdx = 260; s.pc = 92; return s.tmp_0;
   case 92:
     r0 = s.retval;
-    globals.Menu___59174 = (r0);
+    globals.Menu___61519 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.mouse___59228;
+    s.tmp_0.arg0 = globals.mouse___61573;
     s.tmp_0.arg1 = 94;
     s.tmp_0.arg2 = 13;
     s.callLocIdx = 261; s.pc = 93; return s.tmp_0;
   case 93:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.Menu___59174;
+    s.tmp_0.arg0 = globals.Menu___61519;
     s.tmp_0.arg1 = 137;
     s.tmp_0.arg2 = 13;
     s.callLocIdx = 262; s.pc = 94; return s.tmp_0;
   case 94:
     r0 = s.retval;
     s.tmp_0 = controller_moveSprite__P31755_mk(s);
-    s.tmp_0.arg0 = globals.mouse___59228;
+    s.tmp_0.arg0 = globals.mouse___61573;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 100;
     s.callLocIdx = 263; s.pc = 95; return s.tmp_0;
   case 95:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P32005_mk(s);
-    s.tmp_0.arg0 = globals.mouse___59228;
+    s.tmp_0.arg0 = globals.mouse___61573;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 264; s.pc = 96; return s.tmp_0;
   case 96:
     r0 = s.retval;
-    globals.marsMode___59278 = (0);
+    globals.marsMode___61623 = (0);
   case 1:
   case 2:
     s.tmp_0 = forever__P31671_mk(s);
-    s.tmp_0.arg0 = inline__P59828;
+    s.tmp_0.arg0 = inline__P62173;
     s.callLocIdx = 271; s.pc = 97; return s.tmp_0;
   case 97:
     r0 = s.retval;
     s.tmp_0 = forever__P31671_mk(s);
-    s.tmp_0.arg0 = inline__P59857;
+    s.tmp_0.arg0 = inline__P62202;
     s.callLocIdx = 276; s.pc = 98; return s.tmp_0;
   case 98:
     r0 = s.retval;
     s.tmp_0 = forever__P31671_mk(s);
-    s.tmp_0.arg0 = inline__P59885;
+    s.tmp_0.arg0 = inline__P62230;
     s.callLocIdx = 457; s.pc = 99; return s.tmp_0;
   case 99:
     r0 = s.retval;
     s.tmp_0 = forever__P31671_mk(s);
-    s.tmp_0.arg0 = inline__P60376;
+    s.tmp_0.arg0 = inline__P62721;
     s.callLocIdx = 461; s.pc = 100; return s.tmp_0;
   case 100:
     r0 = s.retval;
     s.tmp_0 = forever__P31671_mk(s);
-    s.tmp_0.arg0 = inline__P60402;
+    s.tmp_0.arg0 = inline__P62747;
     s.callLocIdx = 465; s.pc = 101; return s.tmp_0;
   case 101:
     r0 = s.retval;
     s.tmp_0 = forever__P31671_mk(s);
-    s.tmp_0.arg0 = inline__P60428;
+    s.tmp_0.arg0 = inline__P62773;
     s.callLocIdx = 490; s.pc = 102; return s.tmp_0;
   case 102:
     r0 = s.retval;
@@ -1552,13 +1552,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P60827.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Timers/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P60827.continuations = [ 46,47,48,49 ]
+_main___P63172.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Timers/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P63172.continuations = [ 46,47,48,49 ]
 
-function _main___P60827_mk(s) {
+function _main___P63172_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P60827, depth: s.depth + 1,
+        parent: s, fn: _main___P63172, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1610,18 +1610,18 @@ const _hex37295 = pxsim.BufferMethods.createBufferFromHex("8704100010000000ddddd
 const _hex37299 = pxsim.BufferMethods.createBufferFromHex("870410001000000044444444444444448488888818664644848868118188f84f849919888888f64f94898888886648448488888816814844848888168188484484999981888848449489888888664644848888886881484484888868118848448498991988884844949988888811f64f848888661181f84f94999911888848444444444444444444")
 const _hex37303 = pxsim.BufferMethods.createBufferFromHex("87041000100000003333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333")
 const _hex37307 = pxsim.BufferMethods.createBufferFromHex("8704100010000000cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc11111111111111111111111111111111c1cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc")
-const _hex59771 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000cccc00000000ff00000c00d0c4cc0000f0fffe0000ccd0ddc4ccccffefddfe0000ccdcddc44444e4eeddfd0000ccdddd44cceceeeeddfd0000deddbdcccceeeeced4fd0000ded4bbcceeeeeeeed4fd0000eebcbbebeeeee4ccccf40000eebbbbbbeeeee4cccc0c0000eebbbbbbeeeee4cccc0c0000bebbbbbbeeee4ec4cc000000bbbbbbebeeeefe0400000000bbbbbb4beeeebe0b00000000bbbbcbc4ccecbbbb00000000bebbccc4ccecbbbb0b000000eee4ccdcddedbbbbbb000000eee4ccdcddddbebbbb000000eee4ccddddddddbbbb000000eee4ceddddddddbb0b0000004eeecedcddddedfe00000000eebbbbecddddee4eff000000eebb44bbbbdbeee4ee0f0000ee4bb4bbbbebee44eefe00004eb4bbbbbbeb4e4ee4fe0000eececcbbbbeb4eee44fe0000eeccccbbbbeb4eeeeefe0000cfccccffbbbbbbbbeefe0000cccc0c00b0bbbbbbeefe0000c0cc0c00b0bbbbbbfffe000000000000b0bbbbbb00ff0000")
-const _hex59774 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000000000000000000000ffff0f0000f0ffffffff000011110f0000f0666666f6000011110f00006f6666660f000011110f00006f6666660f00001111f900f0666666f60f00001191f900f06666660f0000001191990f6f6666660f000000119199ff666666f60f0000009199996f666666f600000000999999666666660f00000000999999696666f60000000000999999996666f600000000009999999969660f00000000009999999999660f00000000009999999999f60000000000009999999989880f00000000009999999988880f0000000000999999898888f80000000000919999888888f800000000001199998f8888880f00000000119999ff888888f8000000001191f9f0888888f8000000001111f9008f8888880f00000011110f00f0888888f800000011110f00008f8888f800000011110f00008f8888880f000011110f0000ff888888f80000ffff0f0000f0ffffffff0000000000000000000000000000")
-const _hex59777 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000000000000000000000ff0000000000000000000000f20f00000000000000f0000022f2000000000000f0ff000022f20f00000000f02ff200002522ff000000ff5f25f20000545522ff00ff222525f2000044222222ff22552225f20000442422525555552222f40000444424225522222244f40000444424225222224444f40000444444222222424444f40000444444442244444445f40000444444444444445445f40000444444545454444444f50000444444444444445445f40000444444442244444445f40000444444222222444444f40000444422222222424444f40000442422222525222244f40000442222225555552542f40000545522222525222222f200002522f2ff2f22222222f200002222ff00f022222225f2000022f2000000ff2f2525f20000220f00000000f05f25f20000f20f0000000000f02fff00000f00000000000000f0ff00000f0000000000000000000000000000000000000000000000")
-const _hex59780 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000eeeeeeeeeeeeee0e000000eeeeeeee444444eeeeeebbeeeeeeeeeeeeeeee0000eeeeeeeeeeeeee0e000000eeee4e44444444eebebbbbebeeeeeeeeeeeeee0000eeeeeeeeeeeeee00000000e0ee4444444444bbbbbbbbebeeeeeeeeeeeeee0000eeeeeeeeeeee0e00000000ee4e4444444444bbbbbbbbbbeeeeeeeeeeeeee0000eeeeeeeeee4e4400000000eede4d44444444bbbbbbbbebcccceeeeee44ee0000deddddee4e4444440440eeeedddd4d444444bbbbbbbbccccccec444444ee0000dedddd44444444444444eeeedddddd4d4444bbbbbbcccbcccc4c444444e40000eedddd44444444444444eededdddddddedbebbbbcbcccccccc44444444e40000eedddd4d4444444444bbeededdddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444b4bbeeeeddddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444bbbbeeeeeeeeeeddedbebbbbcccccccccc44444444ee0000eededd4444444444bbbbebeeeeeeeeeeeeeebecbcccccccccc44444444ee0000eede4d44444444b4bbbbebeeeeeeeeeeeeeeeebbcccccccccc44444444ee0000eeee4e44444444b4bbbbebeeeeee00e0eeeeeeeecccccccccc444444e4ee0000eeeeee4444ccccbcbbbbbbeeee0e0000eeeeeeeeeecccccccc4c4444eeee0000eeeeee44c4ccccccbbbbbbeeee0e000000eeeeeeeeeecccccc4c44e4eeee0000eeeeee4eccccccccbcbbbbeeeeee000000eeeeeeeeeeeecccceceeeeeeee0000eeeeeececcccccccbcbbbbebeeee000000e0eedeedeeeececceeeeeeeeee0000eeeeeeccccccccccccbbbbebeeee0e0000e0eededdeeeeeeceeeeeeeeeee0000eeeeeeccccccccccbcbbbbbbeeeebe0ee0eeeeddddeeeeeeeeeeeeee44440000ebeececcccccccbbbbbbbbbbeeeebebbeeeededdddddeeeeeeeeee4444440000bbbbcecccccceebebbbbbbbbeeeebbbbbbbbdbddddddeeeeeeee444444440000bbbbcbcccceceeeebbbbbbbbeeeebbbbbbbbdbddddddedeeeeee444444440000bbbbeecccceeeeeebebbebeeeebebbbbbbbbddddddddddeeee4e444444440000bbbbeeeeeeeeeeeeeeeeeeeeeebebbbbbbbbddddedeeeeeeee44444444440000bfbbebeeeeeeeeeeeeeeeeeeeebbbbbbbbebdeddeeeeeeeeee44444444440000fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000")
-const _hex59783 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000000000000000002f220f00000000000000000000000000000000000000000000000000000000002f22ff000000000000f0ff0000000000000000000000f0000000000000000000ff22f2000000000000ff220f000000000000000000004f000000000000000000f022f20f00000000ff2f22ff000000000000000000ff4f000000000000000000f02222ff0000f0ff2f2222f20000000000f0ffffffff420000ffffff0f000000ff5222f2ffffff22222222f20000000000f022222222420000444444ffffffff4f22222244444422222222f2ffffffffffff2222222242000044444444444444442222224444442222222542444444444424222222224400004444444444444444444444444444222222224244444444442422222222440000454444444444444444444444444422222222424444444444222252224244000054444444444444444444444444444444444442444444442422222222444400005444444444444444544444444444444444444444444444222522222244440000444544444444444444444444444444444444444444444422222222424444000044454444444444444444444444444444444444444444442242444444444400004455555555555555555545444444444444444444444444444444444444440000444544444444444444445555554444444444444444444444445555444444000044454444444444444444444444555555555555555555555555444444444400005444444444444444544444444444222222224244444444224244444444440000544444444444444444444444444422222222424444444422224244444444000054444444444444444444444444442222522242444444442225222244444400004544444444444444444444444444222222224244444444222222224244440000454444444444444422222244ffff2f22222242444444442422222522424400004444ffffffffffff222222ff0f00ff2f2222f2ffffffffff2222222222440000ffff0f00000000f05222220f000000ff2222f200000000f02f2222222244000000000000000000f02222f20f000000f02f22f20000000000ffffffffff44000000000000000000f02222ff0000000000ff22f2000000000000000000f042000000000000000000f022f20f0000000000f02ff2000000000000000000004f000000000000000000f022ff00000000000000ffff00000000000000000000000000")
-const _hex59786 = pxsim.BufferMethods.createBufferFromHex("870423003c0000000000000000ffffff0000000000000000000000000000ffffffffff000000000000000000009f99f9ff0f00000000000000000000ffffff888888f8ffff000000ff00000000f0ff19990f000000000000000000f08f88888888888888f8ff0000f80f00000000f09f910f0000000000000000f0ff88888888888888888888000088ffff000000ff9f910f0000000000000000ff888888888888888888888800008888f80f00009f19910f00000000000000ff8f88888888888888888888880000888888ffff009f11910f000000000000f08f888888888811888888888888000088888888f8ff9f1191ff000000000000ff888888888811118188888888880000888888888888181111f90000000000f08f888888881111111181888888880000888888888888888819f9ff00000000ff8888888818111111111188888888000088888888888888889988f9ffffffff8f888888881191191111118188888800008888886888888888888819111111119188888811119998111111118888880000888888686688888888881911111111918888181191888819111111818888000088886866666686888888981911111189888811118988889811111181888800008888666666666688888888191111918888181191888888881911111188880000886866666669666688888898111189881811118988888888981111118888000088666666996966668688888899918888181199888888888898191181888800006866669611916666666688889899888888111189888888889811118188880000886666961991696666666688888888888818119988888898191181888888000088666666196966666666668688888888888811118988881911118888888800008868666699666666666666668888888888881811918998191181888888880000888868666666666666868888888899898888881811911911118188888888000088886866666666668888888888981989888888181111191111888888888800008888886666668688888888888899118988888888181111118188888888880000888888686666888888888888991911918888888888181181888888888888000088888888886888888888889899111111898888888888118888888888888800008888888888888888888888f9ffffff1f918888888888888888888888888800008888888888888898888898ff000000f09f8888888888888888888888888800008888888888888888f9ffff0f00000000ffff8f88888888888888888888880000888888f8ffff9911910f0000000000000000ffff8888888888888888888800008888ffff00f09f11910f000000000000000000f0888888888888888888880000ffff0f0000009f11910f000000000000000000f0ffff88888888888888ff00000000000000009f11910f0000000000000000000000f08f88888888f8ff0f000000000000ffff9f11910f000000000000000000000000ff8f8888ffff00000000000000009f999999f90f00000000000000000000000000ffffff0f0000000000")
-const _hex59789 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ffffff0f00000000000000f04444440e00000000000000f04444440e0000000000ffffff4e44e40e0000000000bfbbbbbb44e40e0000ffffffbfbbbbbbeeee0e0000cfccccccbbbbbbeeee0e00f0ccccccccbbbbbbeeee0e00f0ccccccccbbbbbb44e40e00f0cccccccceeeeee44440400cfcccccceeeeee4e44440400f0cfccdcddedee4e44440e00efeeeedddddd4d4444440ef0eeeeeedddddd4d4444440e00efeededddddddd4d44440e00efeedbddddddddedeeee0ef0bbbbbbddddddddedeeee0ef0bbbbbbdbddddddedeeee0ef0bbbbbbbbdeddddeeeeee0ef0bbbbbbbbeeddddeeeeee0ef0bbbbbbbbffdfedeeeeee0ef0ffffffff0fffefeeeeee0e00000000000000ff4ee4ee0e00000000000000f04ee4ee0e00000000000000ff4444e40e000000000000004f4444e40e00000000000000ffffffff0f")
-const _hex59792 = pxsim.BufferMethods.createBufferFromHex("87041b00170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffff000000000000f0ffff2222f20f00000000f0ff222222224204000000f0ff222222222254040000f0ff22222242444255040000f0222222424444425504f0ff2f222242445445425504ff2222224244545545425504222222224244445445425504ff2222222222444444425504f0ff2f2222222242444255040000ff2222222222424254040000f0ff2f2222222242440455550000f022222222224404555555555555222222224204505500000000ff2222222204005500000000f02f2222220200000000000000ff2222220200000000000000f0ff2222020000000000000000f0ffff0f000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex59795 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ff8f8808000000000000f0ff88686606000000000000f088886666060000000000ff8f886866660600000000f08f88686666660600000000f08888666666660900000000f088686666999909000000f08f88666699999909000000ff88666696999999090000008f88666699999999090000f08f88666699999999090000f08888666699999999090000f08888666696999999090000f08f88666666999999090000008f88886666669699090000008f8888686666669609000000ff8888886666666606000000f08888886866666606000000f08f88888866666606000000008f8888888866660600000000ff8f88888868660600000000008f8888886866060000000000ff8f8888886606000000000000ff8888886806000000000000f08f8888880600000000000000ff8f8888080000000000000000ffff8808")
-const _hex59807 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffbf3b33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbf3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffff3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111111ffffffffffffffffffffffffffffffffffffffffffff3fbbfbfff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111fffffff1ffffffffffffffffffffffffffffffffffffffff3fbbbbfbfffbfffffffffffffffffffffffffffffffffffffffffffffff1fffffffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffff3ff3bffff3ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffff3f33fbf3ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffbffbfffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffff11ffffffffffffffffffffffffffffffffffffffffb3bbfffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffff1fffffffffffffffffffffffffffffffffffffffff3f3fbbfffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffbbf3ffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffff1ff1ffffffffff1fffffffffff1fffffffffffff1fffffffffffff3f33fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffff1fffffffffffffffffffffffffff3fbb333333333333333333bbbbbbbbbb3bf3fffffffffffffffffffffffffffffffffffffffffffffff1ffffffff1ffffffffffffffffffffffffffffff3bbbbbbbbbbbbbbbbbbffffffffffffbbffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffbffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffff1ff1fffffff1ffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffff1fff1f11fffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffff33fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffff33f3fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfb3bbffffffffffffff3fffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3fbbbb3333333333f3ffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbfffffffffffbffffffffffffffffffffffffffffffffff1f111111111111111111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbbbbbbbfffffffffffffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffff3f3333fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffbb3b33ffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffbf3ffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffbfbb1bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111ffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffbbb3f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1f1ffffffffffffffffffffffffffffffff1fffffffffff3b333bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffff1fffffffffffffffffffffffffffffffffffffffffffffbffbff3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffbffbfbb3bffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffffffff1fffffffffffffffffffffffffffffffffffffffffffffbffbfffbf33ffffffffffffffffffffffffffffffffffffffffffffffffff111111fffffff1fffffffffffffffffffffffffffffffffffffffffffffbff3fffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffff11fffff1fffffffffffffffffffffffffffffffffffffffffffffbffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffbffffffffbffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff11ff1ffffffffffffffffffffffffffffffffffffffffffffff3ffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffff3ffffffffb3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffffffffffffffffffffffffffffffffffffffffffff3fffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3f333333333333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbbbbbbbbbbbfbffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffbbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ffff11ffffffffffffffffffffffffffffffffffffffffffffffffffbfbbfffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffff11fffffffffffffffffffffffffffffffffffffffffffffffffff3fbffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffff1fffffffffffffffffffffffffff3fbffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffff3ffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffff33b3fbffffffff3ffbffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11ffff1fffffffffffffffffffffffffffffffffffffffff3bbbbb3333f3bbfbffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1fff1ff1fffffffffffffffffffffffffffffffffffffffffffffffbbbbbb33ffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1ffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11fff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ff1fff1ffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fff1ffffff1ffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffff1ffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bf3ffffffffff3f3333ffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bf3bfbbbbbbbbbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bbf3b33f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbf3ffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3fffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffbff3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff33333333f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbbbbbb3b33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbbbbbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ff3fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fb3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbfbffffffffffffffffbf3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fb3fbffffffffffffbf3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3bbff3f3333b33bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fbbbbbbbbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffbbbbbbbbbbbbbbbbbbbbbbbbbb3333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfff3ffffffffffffffffffffffffffff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffff3ffffffffffbfbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffbf33fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbf3ffffffffffffffffb3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffff3bb3f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffbfbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffbfff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffbbbbbbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffbff3b3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffbff33ffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffbff3bfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffbfffbf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffb3ffbf3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffb3ffffbffffffffffffffff1ffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffbfffffffffffffffffffffffb3fffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffff1fffffffb3ffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffb3ffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffbffffffffffffffffff3ffbfffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffff3ffbffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffbfffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbb3bffffffffffffffb3ffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbbbbfbffffffbffbffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fb3bbffbffbffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ff3bbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3f33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff33fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fff33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff333fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
-const _hex59811 = pxsim.BufferMethods.createBufferFromHex("87040800080000009099990999999999999999999999999999999999999999999999999990999909")
-const _hex59816 = pxsim.BufferMethods.createBufferFromHex("8704120008000000707777000007000000700000000700007077770000000000707777007070700070007000000000007077770000070000007000007077770000000000707777000000700070777700")
+const _hex62116 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000cccc00000000ff00000c00d0c4cc0000f0fffe0000ccd0ddc4ccccffefddfe0000ccdcddc44444e4eeddfd0000ccdddd44cceceeeeddfd0000deddbdcccceeeeced4fd0000ded4bbcceeeeeeeed4fd0000eebcbbebeeeee4ccccf40000eebbbbbbeeeee4cccc0c0000eebbbbbbeeeee4cccc0c0000bebbbbbbeeee4ec4cc000000bbbbbbebeeeefe0400000000bbbbbb4beeeebe0b00000000bbbbcbc4ccecbbbb00000000bebbccc4ccecbbbb0b000000eee4ccdcddedbbbbbb000000eee4ccdcddddbebbbb000000eee4ccddddddddbbbb000000eee4ceddddddddbb0b0000004eeecedcddddedfe00000000eebbbbecddddee4eff000000eebb44bbbbdbeee4ee0f0000ee4bb4bbbbebee44eefe00004eb4bbbbbbeb4e4ee4fe0000eececcbbbbeb4eee44fe0000eeccccbbbbeb4eeeeefe0000cfccccffbbbbbbbbeefe0000cccc0c00b0bbbbbbeefe0000c0cc0c00b0bbbbbbfffe000000000000b0bbbbbb00ff0000")
+const _hex62119 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000000000000000000000ffff0f0000f0ffffffff000011110f0000f0666666f6000011110f00006f6666660f000011110f00006f6666660f00001111f900f0666666f60f00001191f900f06666660f0000001191990f6f6666660f000000119199ff666666f60f0000009199996f666666f600000000999999666666660f00000000999999696666f60000000000999999996666f600000000009999999969660f00000000009999999999660f00000000009999999999f60000000000009999999989880f00000000009999999988880f0000000000999999898888f80000000000919999888888f800000000001199998f8888880f00000000119999ff888888f8000000001191f9f0888888f8000000001111f9008f8888880f00000011110f00f0888888f800000011110f00008f8888f800000011110f00008f8888880f000011110f0000ff888888f80000ffff0f0000f0ffffffff0000000000000000000000000000")
+const _hex62122 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000000000000000000000ff0000000000000000000000f20f00000000000000f0000022f2000000000000f0ff000022f20f00000000f02ff200002522ff000000ff5f25f20000545522ff00ff222525f2000044222222ff22552225f20000442422525555552222f40000444424225522222244f40000444424225222224444f40000444444222222424444f40000444444442244444445f40000444444444444445445f40000444444545454444444f50000444444444444445445f40000444444442244444445f40000444444222222444444f40000444422222222424444f40000442422222525222244f40000442222225555552542f40000545522222525222222f200002522f2ff2f22222222f200002222ff00f022222225f2000022f2000000ff2f2525f20000220f00000000f05f25f20000f20f0000000000f02fff00000f00000000000000f0ff00000f0000000000000000000000000000000000000000000000")
+const _hex62125 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000eeeeeeeeeeeeee0e000000eeeeeeee444444eeeeeebbeeeeeeeeeeeeeeee0000eeeeeeeeeeeeee0e000000eeee4e44444444eebebbbbebeeeeeeeeeeeeee0000eeeeeeeeeeeeee00000000e0ee4444444444bbbbbbbbebeeeeeeeeeeeeee0000eeeeeeeeeeee0e00000000ee4e4444444444bbbbbbbbbbeeeeeeeeeeeeee0000eeeeeeeeee4e4400000000eede4d44444444bbbbbbbbebcccceeeeee44ee0000deddddee4e4444440440eeeedddd4d444444bbbbbbbbccccccec444444ee0000dedddd44444444444444eeeedddddd4d4444bbbbbbcccbcccc4c444444e40000eedddd44444444444444eededdddddddedbebbbbcbcccccccc44444444e40000eedddd4d4444444444bbeededdddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444b4bbeeeeddddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444bbbbeeeeeeeeeeddedbebbbbcccccccccc44444444ee0000eededd4444444444bbbbebeeeeeeeeeeeeeebecbcccccccccc44444444ee0000eede4d44444444b4bbbbebeeeeeeeeeeeeeeeebbcccccccccc44444444ee0000eeee4e44444444b4bbbbebeeeeee00e0eeeeeeeecccccccccc444444e4ee0000eeeeee4444ccccbcbbbbbbeeee0e0000eeeeeeeeeecccccccc4c4444eeee0000eeeeee44c4ccccccbbbbbbeeee0e000000eeeeeeeeeecccccc4c44e4eeee0000eeeeee4eccccccccbcbbbbeeeeee000000eeeeeeeeeeeecccceceeeeeeee0000eeeeeececcccccccbcbbbbebeeee000000e0eedeedeeeececceeeeeeeeee0000eeeeeeccccccccccccbbbbebeeee0e0000e0eededdeeeeeeceeeeeeeeeee0000eeeeeeccccccccccbcbbbbbbeeeebe0ee0eeeeddddeeeeeeeeeeeeee44440000ebeececcccccccbbbbbbbbbbeeeebebbeeeededdddddeeeeeeeeee4444440000bbbbcecccccceebebbbbbbbbeeeebbbbbbbbdbddddddeeeeeeee444444440000bbbbcbcccceceeeebbbbbbbbeeeebbbbbbbbdbddddddedeeeeee444444440000bbbbeecccceeeeeebebbebeeeebebbbbbbbbddddddddddeeee4e444444440000bbbbeeeeeeeeeeeeeeeeeeeeeebebbbbbbbbddddedeeeeeeee44444444440000bfbbebeeeeeeeeeeeeeeeeeeeebbbbbbbbebdeddeeeeeeeeee44444444440000fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000")
+const _hex62128 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000000000000000002f220f00000000000000000000000000000000000000000000000000000000002f22ff000000000000f0ff0000000000000000000000f0000000000000000000ff22f2000000000000ff220f000000000000000000004f000000000000000000f022f20f00000000ff2f22ff000000000000000000ff4f000000000000000000f02222ff0000f0ff2f2222f20000000000f0ffffffff420000ffffff0f000000ff5222f2ffffff22222222f20000000000f022222222420000444444ffffffff4f22222244444422222222f2ffffffffffff2222222242000044444444444444442222224444442222222542444444444424222222224400004444444444444444444444444444222222224244444444442422222222440000454444444444444444444444444422222222424444444444222252224244000054444444444444444444444444444444444442444444442422222222444400005444444444444444544444444444444444444444444444222522222244440000444544444444444444444444444444444444444444444422222222424444000044454444444444444444444444444444444444444444442242444444444400004455555555555555555545444444444444444444444444444444444444440000444544444444444444445555554444444444444444444444445555444444000044454444444444444444444444555555555555555555555555444444444400005444444444444444544444444444222222224244444444224244444444440000544444444444444444444444444422222222424444444422224244444444000054444444444444444444444444442222522242444444442225222244444400004544444444444444444444444444222222224244444444222222224244440000454444444444444422222244ffff2f22222242444444442422222522424400004444ffffffffffff222222ff0f00ff2f2222f2ffffffffff2222222222440000ffff0f00000000f05222220f000000ff2222f200000000f02f2222222244000000000000000000f02222f20f000000f02f22f20000000000ffffffffff44000000000000000000f02222ff0000000000ff22f2000000000000000000f042000000000000000000f022f20f0000000000f02ff2000000000000000000004f000000000000000000f022ff00000000000000ffff00000000000000000000000000")
+const _hex62131 = pxsim.BufferMethods.createBufferFromHex("870423003c0000000000000000ffffff0000000000000000000000000000ffffffffff000000000000000000009f99f9ff0f00000000000000000000ffffff888888f8ffff000000ff00000000f0ff19990f000000000000000000f08f88888888888888f8ff0000f80f00000000f09f910f0000000000000000f0ff88888888888888888888000088ffff000000ff9f910f0000000000000000ff888888888888888888888800008888f80f00009f19910f00000000000000ff8f88888888888888888888880000888888ffff009f11910f000000000000f08f888888888811888888888888000088888888f8ff9f1191ff000000000000ff888888888811118188888888880000888888888888181111f90000000000f08f888888881111111181888888880000888888888888888819f9ff00000000ff8888888818111111111188888888000088888888888888889988f9ffffffff8f888888881191191111118188888800008888886888888888888819111111119188888811119998111111118888880000888888686688888888881911111111918888181191888819111111818888000088886866666686888888981911111189888811118988889811111181888800008888666666666688888888191111918888181191888888881911111188880000886866666669666688888898111189881811118988888888981111118888000088666666996966668688888899918888181199888888888898191181888800006866669611916666666688889899888888111189888888889811118188880000886666961991696666666688888888888818119988888898191181888888000088666666196966666666668688888888888811118988881911118888888800008868666699666666666666668888888888881811918998191181888888880000888868666666666666868888888899898888881811911911118188888888000088886866666666668888888888981989888888181111191111888888888800008888886666668688888888888899118988888888181111118188888888880000888888686666888888888888991911918888888888181181888888888888000088888888886888888888889899111111898888888888118888888888888800008888888888888888888888f9ffffff1f918888888888888888888888888800008888888888888898888898ff000000f09f8888888888888888888888888800008888888888888888f9ffff0f00000000ffff8f88888888888888888888880000888888f8ffff9911910f0000000000000000ffff8888888888888888888800008888ffff00f09f11910f000000000000000000f0888888888888888888880000ffff0f0000009f11910f000000000000000000f0ffff88888888888888ff00000000000000009f11910f0000000000000000000000f08f88888888f8ff0f000000000000ffff9f11910f000000000000000000000000ff8f8888ffff00000000000000009f999999f90f00000000000000000000000000ffffff0f0000000000")
+const _hex62134 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ffffff0f00000000000000f04444440e00000000000000f04444440e0000000000ffffff4e44e40e0000000000bfbbbbbb44e40e0000ffffffbfbbbbbbeeee0e0000cfccccccbbbbbbeeee0e00f0ccccccccbbbbbbeeee0e00f0ccccccccbbbbbb44e40e00f0cccccccceeeeee44440400cfcccccceeeeee4e44440400f0cfccdcddedee4e44440e00efeeeedddddd4d4444440ef0eeeeeedddddd4d4444440e00efeededddddddd4d44440e00efeedbddddddddedeeee0ef0bbbbbbddddddddedeeee0ef0bbbbbbdbddddddedeeee0ef0bbbbbbbbdeddddeeeeee0ef0bbbbbbbbeeddddeeeeee0ef0bbbbbbbbffdfedeeeeee0ef0ffffffff0fffefeeeeee0e00000000000000ff4ee4ee0e00000000000000f04ee4ee0e00000000000000ff4444e40e000000000000004f4444e40e00000000000000ffffffff0f")
+const _hex62137 = pxsim.BufferMethods.createBufferFromHex("87041b00170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffff000000000000f0ffff2222f20f00000000f0ff222222224204000000f0ff222222222254040000f0ff22222242444255040000f0222222424444425504f0ff2f222242445445425504ff2222224244545545425504222222224244445445425504ff2222222222444444425504f0ff2f2222222242444255040000ff2222222222424254040000f0ff2f2222222242440455550000f022222222224404555555555555222222224204505500000000ff2222222204005500000000f02f2222220200000000000000ff2222220200000000000000f0ff2222020000000000000000f0ffff0f000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex62140 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ff8f8808000000000000f0ff88686606000000000000f088886666060000000000ff8f886866660600000000f08f88686666660600000000f08888666666660900000000f088686666999909000000f08f88666699999909000000ff88666696999999090000008f88666699999999090000f08f88666699999999090000f08888666699999999090000f08888666696999999090000f08f88666666999999090000008f88886666669699090000008f8888686666669609000000ff8888886666666606000000f08888886866666606000000f08f88888866666606000000008f8888888866660600000000ff8f88888868660600000000008f8888886866060000000000ff8f8888886606000000000000ff8888886806000000000000f08f8888880600000000000000ff8f8888080000000000000000ffff8808")
+const _hex62152 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffbf3b33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbf3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffff3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111111ffffffffffffffffffffffffffffffffffffffffffff3fbbfbfff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111fffffff1ffffffffffffffffffffffffffffffffffffffff3fbbbbfbfffbfffffffffffffffffffffffffffffffffffffffffffffff1fffffffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffff3ff3bffff3ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffff3f33fbf3ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffbffbfffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffff11ffffffffffffffffffffffffffffffffffffffffb3bbfffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffff1fffffffffffffffffffffffffffffffffffffffff3f3fbbfffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffbbf3ffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffff1ff1ffffffffff1fffffffffff1fffffffffffff1fffffffffffff3f33fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffff1fffffffffffffffffffffffffff3fbb333333333333333333bbbbbbbbbb3bf3fffffffffffffffffffffffffffffffffffffffffffffff1ffffffff1ffffffffffffffffffffffffffffff3bbbbbbbbbbbbbbbbbbffffffffffffbbffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffbffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffff1ff1fffffff1ffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffff1fff1f11fffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffff33fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffff33f3fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfb3bbffffffffffffff3fffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3fbbbb3333333333f3ffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbfffffffffffbffffffffffffffffffffffffffffffffff1f111111111111111111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbbbbbbbfffffffffffffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffff3f3333fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffbb3b33ffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffbf3ffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffbfbb1bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111ffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffbbb3f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1f1ffffffffffffffffffffffffffffffff1fffffffffff3b333bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffff1fffffffffffffffffffffffffffffffffffffffffffffbffbff3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffbffbfbb3bffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffffffff1fffffffffffffffffffffffffffffffffffffffffffffbffbfffbf33ffffffffffffffffffffffffffffffffffffffffffffffffff111111fffffff1fffffffffffffffffffffffffffffffffffffffffffffbff3fffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffff11fffff1fffffffffffffffffffffffffffffffffffffffffffffbffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffbffffffffbffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff11ff1ffffffffffffffffffffffffffffffffffffffffffffff3ffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffff3ffffffffb3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffffffffffffffffffffffffffffffffffffffffffff3fffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11fffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3f333333333333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbbbbbbbbbbbfbffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffbbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1ffff11ffffffffffffffffffffffffffffffffffffffffffffffffffbfbbfffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffff11fffffffffffffffffffffffffffffffffffffffffffffffffff3fbffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffff1fffffffffffffffffffffffffff3fbffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffff3ffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffff33b3fbffffffff3ffbffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11ffff1fffffffffffffffffffffffffffffffffffffffff3bbbbb3333f3bbfbffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1fff1ff1fffffffffffffffffffffffffffffffffffffffffffffffbbbbbb33ffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1ffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11fff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ff1fff1ffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fff1ffffff1ffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffff1ffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bf3ffffffffff3f3333ffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bf3bfbbbbbbbbbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bbf3b33f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbf3ffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3fffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffbff3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff33333333f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbbbbbb3b33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbbbbbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ff3fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fb3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbfbffffffffffffffffbf3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fb3fbffffffffffffbf3bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3bbff3f3333b33bf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fbbbbbbbbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffbbbbbbbbbbbbbbbbbbbbbbbbbb3333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfff3ffffffffffffffffffffffffffff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffff3ffffffffffbfbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbf3fffffffffffffbf33fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbf3ffffffffffffffffb3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffff3bb3f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffbfbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffbfff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffbbbbbbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffbff3b3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffbff33ffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffbff3bfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffbfffbf3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffb3ffbf3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3ffffffffffffffffffffffb3ffffbffffffffffffffff1ffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffbfffffffffffffffffffffffb3fffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffff1fffffffb3ffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffb3ffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffbffffffffffffffffff3ffbfffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffff3ffbffffffff3bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbff3ffffffffffffffffbfffffffffffbff3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbb3bffffffffffffffb3ffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfbbbbfbffffffbffbffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fb3bbffbffbffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ff3bbfbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3f33ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex62156 = pxsim.BufferMethods.createBufferFromHex("87040800080000009099990999999999999999999999999999999999999999999999999990999909")
+const _hex62161 = pxsim.BufferMethods.createBufferFromHex("8704120008000000707777000007000000700000000700007077770000000000707777007070700070007000000000007077770000070000007000007077770000000000707777000000700070777700")
 
 
 
@@ -2591,7 +2591,7 @@ function myTiles_inline__P37402_mk(s) {
 
 
 
-function inline__P59112(s) {
+function inline__P61457(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2625,12 +2625,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59112.info = {"start":587,"length":148,"line":13,"column":65,"endLine":17,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
+inline__P61457.info = {"start":587,"length":148,"line":13,"column":65,"endLine":17,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
 
-function inline__P59112_mk(s) {
+function inline__P61457_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59112, depth: s.depth + 1,
+        parent: s, fn: inline__P61457, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -2641,7 +2641,7 @@ function inline__P59112_mk(s) {
 
 
 
-function inline__P59122(s) {
+function inline__P61467(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2651,28 +2651,28 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
-    globals.astronautDirection___59127 = (2);
+    globals.astronautDirection___61472 = (2);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex59133);
+    r0 = pxsim.image.ofBuffer(_hex61478);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex59135);
+    r0 = pxsim.image.ofBuffer(_hex61480);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex59137);
+    r0 = pxsim.image.ofBuffer(_hex61482);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex59139);
+    r0 = pxsim.image.ofBuffer(_hex61484);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
-    r0 = pxsim.image.ofBuffer(_hex59141);
+    r0 = pxsim.image.ofBuffer(_hex61486);
     s.tmp_5 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_5);
     s.tmp_6 = animation_runImageAnimation__P32950_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.tmp_6.arg1 = s.tmp_0;
     s.tmp_6.arg2 = 80;
     s.tmp_6.arg3 = true;
@@ -2685,12 +2685,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59122.info = {"start":790,"length":3870,"line":18,"column":53,"endLine":113,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61467.info = {"start":790,"length":3870,"line":18,"column":53,"endLine":113,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59122_mk(s) {
+function inline__P61467_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59122, depth: s.depth + 1,
+        parent: s, fn: inline__P61467, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2701,16 +2701,16 @@ function inline__P59122_mk(s) {
   tmp_6: undefined,
 } }
 
-const _hex59133 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
-const _hex59135 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1eff0f1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
-const _hex59137 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1e0f001f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
-const _hex59139 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1eff0f1f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
-const _hex59141 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1e0f001f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
+const _hex61478 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
+const _hex61480 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1eff0f1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
+const _hex61482 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1e0f001f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
+const _hex61484 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1eff0f1f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
+const _hex61486 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00f00001f11110ef00000001f1111fefeff00001f1111efee1e0f001f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f00f0000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59165(s) {
+function inline__P61510(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2736,7 +2736,7 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P31865_mk(s);
-    s.tmp_2.arg0 = globals.Menu___59174;
+    s.tmp_2.arg0 = globals.Menu___61519;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 101; s.pc = 4; return s.tmp_2;
@@ -2760,22 +2760,22 @@ switch (step) {
   case 7:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59187);
+    r0 = pxsim.image.ofBuffer(_hex61532);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.marsButtonkind___59088;
+    s.tmp_0.arg1 = globals.marsButtonkind___61433;
     s.callLocIdx = 105; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
-    globals.marsButton___59183 = (r0);
+    globals.marsButton___61528 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.marsButton___59183;
+    s.tmp_0.arg0 = globals.marsButton___61528;
     s.tmp_0.arg1 = 25;
     s.tmp_0.arg2 = 54;
     s.callLocIdx = 106; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59193);
+    r0 = pxsim.image.ofBuffer(_hex61538);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 107; s.pc = 10; return s.tmp_0;
   case 10:
@@ -2786,12 +2786,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59165.info = {"start":4969,"length":21972,"line":121,"column":62,"endLine":262,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P61510.info = {"start":4969,"length":21972,"line":121,"column":62,"endLine":262,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59165_mk(s) {
+function inline__P61510_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59165, depth: s.depth + 1,
+        parent: s, fn: inline__P61510, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2800,13 +2800,13 @@ function inline__P59165_mk(s) {
   arg1: undefined,
 } }
 
-const _hex59187 = pxsim.BufferMethods.createBufferFromHex("87041e000a000000111111111100000010000000000000000011000000000000000001000000000000110000000000001000000000000000111111111100000000000000000000000000000000000000001011111100000010011000000000000100100100000000100100010000000000101111110000000000000000000000000000000000000010111111110000000100110000000000010001010000000001000110110000001011000000000000000000000000000000000000000000001011000010000000010001001000000001000100100000000100101101000000000000000000000000000000000000000000000000000000")
-const _hex59193 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex61532 = pxsim.BufferMethods.createBufferFromHex("87041e000a000000111111111100000010000000000000000011000000000000000001000000000000110000000000001000000000000000111111111100000000000000000000000000000000000000001011111100000010011000000000000100100100000000100100010000000000101111110000000000000000000000000000000000000010111111110000000100110000000000010001010000000001000110110000001011000000000000000000000000000000000000000000001011000010000000010001001000000001000100100000000100101101000000000000000000000000000000000000000000000000000000")
+const _hex61538 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 
 
 
 
-function inline__P59217(s) {
+function inline__P61562(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2832,14 +2832,14 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P31865_mk(s);
-    s.tmp_2.arg0 = globals.marsButton___59183;
+    s.tmp_2.arg0 = globals.marsButton___61528;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 113; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.mouse___59228;
+    s.tmp_0.arg0 = globals.mouse___61573;
     s.tmp_0.arg1 = 68;
     s.tmp_0.arg2 = 98;
     s.callLocIdx = 114; s.pc = 5; return s.tmp_0;
@@ -2863,37 +2863,37 @@ switch (step) {
   case 8:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59241);
+    r0 = pxsim.image.ofBuffer(_hex61586);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.rockColKind___59091;
+    s.tmp_0.arg1 = globals.rockColKind___61436;
     s.callLocIdx = 118; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
-    globals.rockCollectionButton___59237 = (r0);
+    globals.rockCollectionButton___61582 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.rockCollectionButton___59237;
+    s.tmp_0.arg0 = globals.rockCollectionButton___61582;
     s.tmp_0.arg1 = 72;
     s.tmp_0.arg2 = 56;
     s.callLocIdx = 119; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59250);
+    r0 = pxsim.image.ofBuffer(_hex61595);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.creativeKind___59103;
+    s.tmp_0.arg1 = globals.creativeKind___61448;
     s.callLocIdx = 120; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.creativeModeButton___59246 = (r0);
+    globals.creativeModeButton___61591 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.creativeModeButton___59246;
+    s.tmp_0.arg0 = globals.creativeModeButton___61591;
     s.tmp_0.arg1 = 72;
     s.tmp_0.arg2 = 80;
     s.callLocIdx = 121; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59256);
+    r0 = pxsim.image.ofBuffer(_hex61601);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 122; s.pc = 13; return s.tmp_0;
   case 13:
@@ -2904,12 +2904,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59217.info = {"start":27236,"length":23508,"line":270,"column":67,"endLine":425,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P61562.info = {"start":27236,"length":23508,"line":270,"column":67,"endLine":425,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59217_mk(s) {
+function inline__P61562_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59217, depth: s.depth + 1,
+        parent: s, fn: inline__P61562, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2918,14 +2918,14 @@ function inline__P59217_mk(s) {
   arg1: undefined,
 } }
 
-const _hex59241 = pxsim.BufferMethods.createBufferFromHex("870455000a0000001111111111000000010011000000000001000111000000001011000011000000000000000000000000000000000000001011111101000000010000001000000001000000100000000100000010000000101111110100000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000000000000000000000000000000000000111111111100000000000100000000001011101101000000010000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000010111111010000000000000000000000000000000000000011111111110000000000000010000000000000001000000000000000000000000000000000000000111111111100000000000000100000000000000010000000000000000000000000000000000000001111111111000000010001001000000001000100100000000100000010000000000000000000000000000000000000001011111101000000010000001000000001000000100000000100000010000000000000000000000000000000000000000100000000000000010000000000000011111111110000000100000000000000010000000000000000000000000000000000000000000000111111111100000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000010111111010000000000000000000000000000000000000011111111110000000001000000000000001011000000000000000001000000001111111111000000")
-const _hex59250 = pxsim.BufferMethods.createBufferFromHex("870465000a00000000000000000000001011111101000000010000001000000001000000100000000100000010000000010000001000000000000000000000000000000000000000111111111100000001001000000000000100100100000000010001110100000010110100100000000000000000000000000000000000000000000000000000000000000000000000111111111100000001000100100000000100010010000000010000001000000001000000100000000000000000000000000000000000000000000011110000001011110000000000110010000000000011111000000000000000110100000000000000101100000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000011111111110000000100000000000000010000000000000001000000000000000000000000000000000000000000000011111111110000000000000000000000000000000000000011110100000000000000111100000000000000001100000000001011010000001011010000000000110000000000000000000000000000000000000000000000111111111100000001000100100000000100010010000000010000001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111110000001000000000000000001100000000000000000100000000000011000000000000100000000000000011111111110000000000000000000000000000000000000000000000000000001011111101000000010000001000000001000000100000000100000010000000010000001000000001000000100000001011111101000000000000000000000000000000000000001111111111000000010000001000000001000000100000001100000011000000101111110100000000000000000000000000000000000000000000000000000011111111110000000100010010000000010001001000000001000000100000000100000010000000")
-const _hex59256 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex61586 = pxsim.BufferMethods.createBufferFromHex("870455000a0000001111111111000000010011000000000001000111000000001011000011000000000000000000000000000000000000001011111101000000010000001000000001000000100000000100000010000000101111110100000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000000000000000000000000000000000000111111111100000000000100000000001011101101000000010000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000010111111010000000000000000000000000000000000000011111111110000000000000010000000000000001000000000000000000000000000000000000000111111111100000000000000100000000000000010000000000000000000000000000000000000001111111111000000010001001000000001000100100000000100000010000000000000000000000000000000000000001011111101000000010000001000000001000000100000000100000010000000000000000000000000000000000000000100000000000000010000000000000011111111110000000100000000000000010000000000000000000000000000000000000000000000111111111100000000000000000000000000000000000000101111110100000001000000100000000100000010000000010000001000000010111111010000000000000000000000000000000000000011111111110000000001000000000000001011000000000000000001000000001111111111000000")
+const _hex61595 = pxsim.BufferMethods.createBufferFromHex("870465000a00000000000000000000001011111101000000010000001000000001000000100000000100000010000000010000001000000000000000000000000000000000000000111111111100000001001000000000000100100100000000010001110100000010110100100000000000000000000000000000000000000000000000000000000000000000000000111111111100000001000100100000000100010010000000010000001000000001000000100000000000000000000000000000000000000000000011110000001011110000000000110010000000000011111000000000000000110100000000000000101100000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000011111111110000000100000000000000010000000000000001000000000000000000000000000000000000000000000011111111110000000000000000000000000000000000000011110100000000000000111100000000000000001100000000001011010000001011010000000000110000000000000000000000000000000000000000000000111111111100000001000100100000000100010010000000010000001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111110000001000000000000000001100000000000000000100000000000011000000000000100000000000000011111111110000000000000000000000000000000000000000000000000000001011111101000000010000001000000001000000100000000100000010000000010000001000000001000000100000001011111101000000000000000000000000000000000000001111111111000000010000001000000001000000100000001100000011000000101111110100000000000000000000000000000000000000000000000000000011111111110000000100010010000000010001001000000001000000100000000100000010000000")
+const _hex61601 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 
 
 
 
-function inline__P59260(s) {
+function inline__P61605(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2951,27 +2951,27 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P31865_mk(s);
-    s.tmp_2.arg0 = globals.rockCollectionButton___59237;
+    s.tmp_2.arg0 = globals.rockCollectionButton___61582;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 124; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.mouse___59228;
+    s.tmp_0.arg0 = globals.mouse___61573;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 125; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.creativeModeButton___59246;
+    s.tmp_0.arg0 = globals.creativeModeButton___61591;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 126; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.marsMode___59278 = (1);
+    globals.marsMode___61623 = (1);
     s.tmp_0 = music_play__P31510_mk(s);
     s.tmp_1 = music_melodyPlayable__P31511_mk(s);
     s.tmp_1.arg0 = globals.baDing___31234;
@@ -2984,67 +2984,67 @@ switch (step) {
   case 7:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59287);
+    r0 = pxsim.image.ofBuffer(_hex61632);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 129; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
-    globals.engine___59149 = (r0);
+    globals.engine___61494 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.engine___59149;
+    s.tmp_0.arg0 = globals.engine___61494;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 101;
     s.callLocIdx = 130; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59294);
+    r0 = pxsim.image.ofBuffer(_hex61639);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 131; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.body___59201 = (r0);
+    globals.body___61546 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.body___59201;
+    s.tmp_0.arg0 = globals.body___61546;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 61;
     s.callLocIdx = 132; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59303);
+    r0 = pxsim.image.ofBuffer(_hex61648);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 133; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
-    globals.tip___59299 = (r0);
+    globals.tip___61644 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.tip___59299;
+    s.tmp_0.arg0 = globals.tip___61644;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 20;
     s.callLocIdx = 134; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
-    globals.enginePlace___59158 = (1);
-    globals.bodyPlace___59210 = (1);
-    globals.tipPlace___59310 = (1);
-    globals.selectPlace___59313 = (globals.ENGINE_SELECTION___59316);
-    globals.velocity___59319 = (1);
-    globals.fuel___59322 = (1);
-    globals.color2___59325 = (1);
+    globals.enginePlace___61503 = (1);
+    globals.bodyPlace___61555 = (1);
+    globals.tipPlace___61655 = (1);
+    globals.selectPlace___61658 = (globals.ENGINE_SELECTION___61661);
+    globals.velocity___61664 = (1);
+    globals.fuel___61667 = (1);
+    globals.color2___61670 = (1);
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59332);
+    r0 = pxsim.image.ofBuffer(_hex61677);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 135; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
-    globals.arrows___59328 = (r0);
+    globals.arrows___61673 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.arrows___59328;
+    s.tmp_0.arg0 = globals.arrows___61673;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 101;
     s.callLocIdx = 136; s.pc = 16; return s.tmp_0;
@@ -3057,7 +3057,7 @@ switch (step) {
   case 17:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59340);
+    r0 = pxsim.image.ofBuffer(_hex61685);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 138; s.pc = 18; return s.tmp_0;
   case 18:
@@ -3068,12 +3068,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59260.info = {"start":50810,"length":27350,"line":426,"column":64,"endLine":695,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P61605.info = {"start":50810,"length":27350,"line":426,"column":64,"endLine":695,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59260_mk(s) {
+function inline__P61605_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59260, depth: s.depth + 1,
+        parent: s, fn: inline__P61605, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3082,16 +3082,16 @@ function inline__P59260_mk(s) {
   arg1: undefined,
 } }
 
-const _hex59287 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000cccc00000000ff00000c00d0c4cc0000f0fffe0000ccd0ddc4ccccffefddfe0000ccdcddc44444e4eeddfd0000ccdddd44cceceeeeddfd0000deddbdcccceeeeced4fd0000ded4bbcceeeeeeeed4fd0000eebcbbebeeeee4ccccf40000eebbbbbbeeeee4cccc0c0000eebbbbbbeeeee4cccc0c0000bebbbbbbeeee4ec4cc000000bbbbbbebeeeefe0400000000bbbbbb4beeeebe0b00000000bbbbcbc4ccecbbbb00000000bebbccc4ccecbbbb0b000000eee4ccdcddedbbbbbb000000eee4ccdcddddbebbbb000000eee4ccddddddddbbbb000000eee4ceddddddddbb0b0000004eeecedcddddedfe00000000eebbbbecddddee4eff000000eebb44bbbbdbeee4ee0f0000ee4bb4bbbbebee44eefe00004eb4bbbbbbeb4e4ee4fe0000eececcbbbbeb4eee44fe0000eeccccbbbbeb4eeeeefe0000cfccccffbbbbbbbbeefe0000cccc0c00b0bbbbbbeefe0000c0cc0c00b0bbbbbbfffe000000000000b0bbbbbb00ff0000")
-const _hex59294 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000eeeeeeeeeeeeee0e000000eeeeeeee444444eeeeeebbeeeeeeeeeeeeeeee0000eeeeeeeeeeeeee0e000000eeee4e44444444eebebbbbebeeeeeeeeeeeeee0000eeeeeeeeeeeeee00000000e0ee4444444444bbbbbbbbebeeeeeeeeeeeeee0000eeeeeeeeeeee0e00000000ee4e4444444444bbbbbbbbbbeeeeeeeeeeeeee0000eeeeeeeeee4e4400000000eede4d44444444bbbbbbbbebcccceeeeee44ee0000deddddee4e4444440440eeeedddd4d444444bbbbbbbbccccccec444444ee0000dedddd44444444444444eeeedddddd4d4444bbbbbbcccbcccc4c444444e40000eedddd44444444444444eededdddddddedbebbbbcbcccccccc44444444e40000eedddd4d4444444444bbeededdddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444b4bbeeeeddddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444bbbbeeeeeeeeeeddedbebbbbcccccccccc44444444ee0000eededd4444444444bbbbebeeeeeeeeeeeeeebecbcccccccccc44444444ee0000eede4d44444444b4bbbbebeeeeeeeeeeeeeeeebbcccccccccc44444444ee0000eeee4e44444444b4bbbbebeeeeee00e0eeeeeeeecccccccccc444444e4ee0000eeeeee4444ccccbcbbbbbbeeee0e0000eeeeeeeeeecccccccc4c4444eeee0000eeeeee44c4ccccccbbbbbbeeee0e000000eeeeeeeeeecccccc4c44e4eeee0000eeeeee4eccccccccbcbbbbeeeeee000000eeeeeeeeeeeecccceceeeeeeee0000eeeeeececcccccccbcbbbbebeeee000000e0eedeedeeeececceeeeeeeeee0000eeeeeeccccccccccccbbbbebeeee0e0000e0eededdeeeeeeceeeeeeeeeee0000eeeeeeccccccccccbcbbbbbbeeeebe0ee0eeeeddddeeeeeeeeeeeeee44440000ebeececcccccccbbbbbbbbbbeeeebebbeeeededdddddeeeeeeeeee4444440000bbbbcecccccceebebbbbbbbbeeeebbbbbbbbdbddddddeeeeeeee444444440000bbbbcbcccceceeeebbbbbbbbeeeebbbbbbbbdbddddddedeeeeee444444440000bbbbeecccceeeeeebebbebeeeebebbbbbbbbddddddddddeeee4e444444440000bbbbeeeeeeeeeeeeeeeeeeeeeebebbbbbbbbddddedeeeeeeee44444444440000bfbbebeeeeeeeeeeeeeeeeeeeebbbbbbbbebdeddeeeeeeeeee44444444440000fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000")
-const _hex59303 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ffffff0f00000000000000f04444440e00000000000000f04444440e0000000000ffffff4e44e40e0000000000bfbbbbbb44e40e0000ffffffbfbbbbbbeeee0e0000cfccccccbbbbbbeeee0e00f0ccccccccbbbbbbeeee0e00f0ccccccccbbbbbb44e40e00f0cccccccceeeeee44440400cfcccccceeeeee4e44440400f0cfccdcddedee4e44440e00efeeeedddddd4d4444440ef0eeeeeedddddd4d4444440e00efeededddddddd4d44440e00efeedbddddddddedeeee0ef0bbbbbbddddddddedeeee0ef0bbbbbbdbddddddedeeee0ef0bbbbbbbbdeddddeeeeee0ef0bbbbbbbbeeddddeeeeee0ef0bbbbbbbbffdfedeeeeee0ef0ffffffff0fffefeeeeee0e00000000000000ff4ee4ee0e00000000000000f04ee4ee0e00000000000000ff4444e40e000000000000004f4444e40e00000000000000ffffffff0f")
-const _hex59332 = pxsim.BufferMethods.createBufferFromHex("87044600100000000000000000000000ff000000000000f0f00f00000000000f00f000000000f00f00f00f000000ff000000f00000f000000000f00f00f000000000000f000f0000000000ffff000000000000f00f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f00f000000000000ffff0000000000f00ff000000000f00f00f0ff000000ff000000f00f00f000000000000f00ff0000000000fff0000000000000f0")
-const _hex59340 = pxsim.BufferMethods.createBufferFromHex("8704a0007800000099999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999d9dddddddddddddddd77777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddd7d777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999d9dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddd7777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999997777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999d9dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddd777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777")
+const _hex61632 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000cccc00000000ff00000c00d0c4cc0000f0fffe0000ccd0ddc4ccccffefddfe0000ccdcddc44444e4eeddfd0000ccdddd44cceceeeeddfd0000deddbdcccceeeeced4fd0000ded4bbcceeeeeeeed4fd0000eebcbbebeeeee4ccccf40000eebbbbbbeeeee4cccc0c0000eebbbbbbeeeee4cccc0c0000bebbbbbbeeee4ec4cc000000bbbbbbebeeeefe0400000000bbbbbb4beeeebe0b00000000bbbbcbc4ccecbbbb00000000bebbccc4ccecbbbb0b000000eee4ccdcddedbbbbbb000000eee4ccdcddddbebbbb000000eee4ccddddddddbbbb000000eee4ceddddddddbb0b0000004eeecedcddddedfe00000000eebbbbecddddee4eff000000eebb44bbbbdbeee4ee0f0000ee4bb4bbbbebee44eefe00004eb4bbbbbbeb4e4ee4fe0000eececcbbbbeb4eee44fe0000eeccccbbbbeb4eeeeefe0000cfccccffbbbbbbbbeefe0000cccc0c00b0bbbbbbeefe0000c0cc0c00b0bbbbbbfffe000000000000b0bbbbbb00ff0000")
+const _hex61639 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000eeeeeeeeeeeeee0e000000eeeeeeee444444eeeeeebbeeeeeeeeeeeeeeee0000eeeeeeeeeeeeee0e000000eeee4e44444444eebebbbbebeeeeeeeeeeeeee0000eeeeeeeeeeeeee00000000e0ee4444444444bbbbbbbbebeeeeeeeeeeeeee0000eeeeeeeeeeee0e00000000ee4e4444444444bbbbbbbbbbeeeeeeeeeeeeee0000eeeeeeeeee4e4400000000eede4d44444444bbbbbbbbebcccceeeeee44ee0000deddddee4e4444440440eeeedddd4d444444bbbbbbbbccccccec444444ee0000dedddd44444444444444eeeedddddd4d4444bbbbbbcccbcccc4c444444e40000eedddd44444444444444eededdddddddedbebbbbcbcccccccc44444444e40000eedddd4d4444444444bbeededdddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444b4bbeeeeddddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444bbbbeeeeeeeeeeddedbebbbbcccccccccc44444444ee0000eededd4444444444bbbbebeeeeeeeeeeeeeebecbcccccccccc44444444ee0000eede4d44444444b4bbbbebeeeeeeeeeeeeeeeebbcccccccccc44444444ee0000eeee4e44444444b4bbbbebeeeeee00e0eeeeeeeecccccccccc444444e4ee0000eeeeee4444ccccbcbbbbbbeeee0e0000eeeeeeeeeecccccccc4c4444eeee0000eeeeee44c4ccccccbbbbbbeeee0e000000eeeeeeeeeecccccc4c44e4eeee0000eeeeee4eccccccccbcbbbbeeeeee000000eeeeeeeeeeeecccceceeeeeeee0000eeeeeececcccccccbcbbbbebeeee000000e0eedeedeeeececceeeeeeeeee0000eeeeeeccccccccccccbbbbebeeee0e0000e0eededdeeeeeeceeeeeeeeeee0000eeeeeeccccccccccbcbbbbbbeeeebe0ee0eeeeddddeeeeeeeeeeeeee44440000ebeececcccccccbbbbbbbbbbeeeebebbeeeededdddddeeeeeeeeee4444440000bbbbcecccccceebebbbbbbbbeeeebbbbbbbbdbddddddeeeeeeee444444440000bbbbcbcccceceeeebbbbbbbbeeeebbbbbbbbdbddddddedeeeeee444444440000bbbbeecccceeeeeebebbebeeeebebbbbbbbbddddddddddeeee4e444444440000bbbbeeeeeeeeeeeeeeeeeeeeeebebbbbbbbbddddedeeeeeeee44444444440000bfbbebeeeeeeeeeeeeeeeeeeeebbbbbbbbebdeddeeeeeeeeee44444444440000fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000")
+const _hex61648 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ffffff0f00000000000000f04444440e00000000000000f04444440e0000000000ffffff4e44e40e0000000000bfbbbbbb44e40e0000ffffffbfbbbbbbeeee0e0000cfccccccbbbbbbeeee0e00f0ccccccccbbbbbbeeee0e00f0ccccccccbbbbbb44e40e00f0cccccccceeeeee44440400cfcccccceeeeee4e44440400f0cfccdcddedee4e44440e00efeeeedddddd4d4444440ef0eeeeeedddddd4d4444440e00efeededddddddd4d44440e00efeedbddddddddedeeee0ef0bbbbbbddddddddedeeee0ef0bbbbbbdbddddddedeeee0ef0bbbbbbbbdeddddeeeeee0ef0bbbbbbbbeeddddeeeeee0ef0bbbbbbbbffdfedeeeeee0ef0ffffffff0fffefeeeeee0e00000000000000ff4ee4ee0e00000000000000f04ee4ee0e00000000000000ff4444e40e000000000000004f4444e40e00000000000000ffffffff0f")
+const _hex61677 = pxsim.BufferMethods.createBufferFromHex("87044600100000000000000000000000ff000000000000f0f00f00000000000f00f000000000f00f00f00f000000ff000000f00000f000000000f00f00f000000000000f000f0000000000ffff000000000000f00f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f00f000000000000ffff0000000000f00ff000000000f00f00f0ff000000ff000000f00f00f000000000000f00ff0000000000fff0000000000000f0")
+const _hex61685 = pxsim.BufferMethods.createBufferFromHex("8704a0007800000099999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999d9dddddddddddddddd77777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddd7d777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999d9dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddd7777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999997777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999d9dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddd777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777")
 
 
 
 
-function inline__P59344(s) {
+function inline__P61689(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3101,17 +3101,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = animation_stopAnimation__P32956_mk(s);
     s.tmp_0.arg0 = 0;
-    s.tmp_0.arg1 = globals.astronaut___59124;
+    s.tmp_0.arg1 = globals.astronaut___61469;
     s.callLocIdx = 140; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = Sprite_setImage__P31979_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
-    r0 = pxsim.image.ofBuffer(_hex59352);
+    s.tmp_0.arg0 = globals.astronaut___61469;
+    r0 = pxsim.image.ofBuffer(_hex61697);
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 141; s.pc = 4; return s.tmp_0;
   case 4:
@@ -3122,22 +3122,22 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59344.info = {"start":78218,"length":882,"line":696,"column":56,"endLine":718,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61689.info = {"start":78218,"length":882,"line":696,"column":56,"endLine":718,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59344_mk(s) {
+function inline__P61689_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59344, depth: s.depth + 1,
+        parent: s, fn: inline__P61689, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex59352 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61697 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59356(s) {
+function inline__P61701(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3147,25 +3147,25 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
-    globals.astronautDirection___59127 = (1);
+    globals.astronautDirection___61472 = (1);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex59363);
+    r0 = pxsim.image.ofBuffer(_hex61708);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex59365);
+    r0 = pxsim.image.ofBuffer(_hex61710);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex59367);
+    r0 = pxsim.image.ofBuffer(_hex61712);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex59369);
+    r0 = pxsim.image.ofBuffer(_hex61714);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
     s.tmp_5 = animation_runImageAnimation__P32950_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.tmp_5.arg1 = s.tmp_0;
     s.tmp_5.arg2 = 100;
     s.tmp_5.arg3 = true;
@@ -3178,12 +3178,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59356.info = {"start":79157,"length":3132,"line":719,"column":55,"endLine":797,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61701.info = {"start":79157,"length":3132,"line":719,"column":55,"endLine":797,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59356_mk(s) {
+function inline__P61701_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59356, depth: s.depth + 1,
+        parent: s, fn: inline__P61701, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3193,15 +3193,15 @@ function inline__P59356_mk(s) {
   tmp_5: undefined,
 } }
 
-const _hex59363 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919fffffff0ff1f99191f1b11ff001f99191f1b110f001f99191fc1110f0f1f99191f1111fff01f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
-const _hex59365 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11ff0f1f99191f1b110fff1f99191fc111ff001f99191f11110f001f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
-const _hex59367 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11ff0f1f99191f1b110fff1f99191fc111ff001f99191f11110f001f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
-const _hex59369 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11fff01f99191f1b110f0f1f99191fc111ff0f1f99191f11110ff01f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
+const _hex61708 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919fffffff0ff1f99191f1b11ff001f99191f1b110f001f99191fc1110f0f1f99191f1111fff01f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
+const _hex61710 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11ff0f1f99191f1b110fff1f99191fc111ff001f99191f11110f001f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
+const _hex61712 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11ff0f1f99191f1b110fff1f99191fc111ff001f99191f11110f001f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
+const _hex61714 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11fff01f99191f1b110f0f1f99191fc111ff0f1f99191f11110ff01f9111ffffff0000f0ffff00f000000000000000f0000000000000000f00000000000000000000000000000000000000")
 
 
 
 
-function inline__P59374(s) {
+function inline__P61719(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3232,15 +3232,15 @@ switch (step) {
     s.callLocIdx = 148; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
-    globals.selectPlace___59313 = (globals.ON_MARS___59383);
+    globals.selectPlace___61658 = (globals.ON_MARS___61728);
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.rocket___59389;
+    s.tmp_0.arg0 = globals.rocket___61734;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 149; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    r0 = (globals.marsMode___59278 == 1);
+    r0 = (globals.marsMode___61623 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
@@ -3266,15 +3266,15 @@ switch (step) {
   case 10:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59402);
+    r0 = pxsim.image.ofBuffer(_hex61747);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 154; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.astronaut___59124 = (r0);
+    globals.astronaut___61469 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.astronaut___61469;
     s.tmp_0.arg1 = 82;
     s.tmp_0.arg2 = 11;
     s.callLocIdx = 155; s.pc = 12; return s.tmp_0;
@@ -3286,46 +3286,46 @@ switch (step) {
   case 13:
     r0 = s.retval;
     s.tmp_0 = controller_moveSprite__P31755_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.astronaut___61469;
     s.tmp_0.arg1 = 50;
     s.tmp_0.arg2 = 50;
     s.callLocIdx = 157; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
     s.tmp_0 = scene_cameraFollowSprite__P32478_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.astronaut___61469;
     s.callLocIdx = 158; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
     s.tmp_0 = statusbars_create__P34393_mk(s);
     s.tmp_0.arg0 = 50;
     s.tmp_0.arg1 = 5;
-    s.tmp_0.arg2 = globals.RocksLMarsKind___59106;
+    s.tmp_0.arg2 = globals.RocksLMarsKind___61451;
     s.callLocIdx = 159; s.pc = 16; return s.tmp_0;
   case 16:
     r0 = s.retval;
-    globals.rocksLeftinMars___59412 = (r0);
+    globals.rocksLeftinMars___61757 = (r0);
     s.tmp_0 = StatusBarSprite_max__P34342_mk(s);
-    s.tmp_0.arg0 = globals.rocksLeftinMars___59412;
+    s.tmp_0.arg0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg1 = 35;
     s.callLocIdx = 160; s.pc = 17; return s.tmp_0;
   case 17:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P34340_mk(s);
-    s.tmp_0.arg0 = globals.rocksLeftinMars___59412;
+    s.tmp_0.arg0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg1 = 35;
     s.callLocIdx = 161; s.pc = 18; return s.tmp_0;
   case 18:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_setLabel__P34347_mk(s);
-    s.tmp_0.arg0 = globals.rocksLeftinMars___59412;
+    s.tmp_0.arg0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg1 = "Rocks";
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 162; s.pc = 19; return s.tmp_0;
   case 19:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_positionDirection__P34350_mk(s);
-    s.tmp_0.arg0 = globals.rocksLeftinMars___59412;
+    s.tmp_0.arg0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg1 = 1;
     s.callLocIdx = 163; s.pc = 20; return s.tmp_0;
   case 20:
@@ -3354,22 +3354,22 @@ switch (step) {
   case 24:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59435);
+    r0 = pxsim.image.ofBuffer(_hex61780);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 168; s.pc = 25; return s.tmp_0;
   case 25:
     r0 = s.retval;
-    globals.astronaut___59124 = (r0);
+    globals.astronaut___61469 = (r0);
     s.tmp_0 = controller_moveSprite__P31755_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.astronaut___61469;
     s.tmp_0.arg1 = 50;
     s.tmp_0.arg2 = 50;
     s.callLocIdx = 169; s.pc = 26; return s.tmp_0;
   case 26:
     r0 = s.retval;
     s.tmp_0 = scene_cameraFollowSprite__P32478_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.astronaut___61469;
     s.callLocIdx = 170; s.pc = 27; return s.tmp_0;
   case 27:
     r0 = s.retval;
@@ -3378,12 +3378,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59374.info = {"start":82356,"length":2621,"line":798,"column":65,"endLine":860,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
+inline__P61719.info = {"start":82356,"length":2621,"line":798,"column":65,"endLine":860,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
 
-function inline__P59374_mk(s) {
+function inline__P61719_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59374, depth: s.depth + 1,
+        parent: s, fn: inline__P61719, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3392,13 +3392,13 @@ function inline__P59374_mk(s) {
   arg1: undefined,
 } }
 
-const _hex59402 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
-const _hex59435 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61747 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61780 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59460(s) {
+function inline__P61805(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3408,17 +3408,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = animation_stopAnimation__P32956_mk(s);
     s.tmp_0.arg0 = 0;
-    s.tmp_0.arg1 = globals.astronaut___59124;
+    s.tmp_0.arg1 = globals.astronaut___61469;
     s.callLocIdx = 176; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = Sprite_setImage__P31979_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
-    r0 = pxsim.image.ofBuffer(_hex59468);
+    s.tmp_0.arg0 = globals.astronaut___61469;
+    r0 = pxsim.image.ofBuffer(_hex61813);
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 177; s.pc = 4; return s.tmp_0;
   case 4:
@@ -3429,22 +3429,22 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59460.info = {"start":85253,"length":882,"line":868,"column":57,"endLine":890,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61805.info = {"start":85253,"length":882,"line":868,"column":57,"endLine":890,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59460_mk(s) {
+function inline__P61805_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59460, depth: s.depth + 1,
+        parent: s, fn: inline__P61805, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex59468 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000000000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f1111ffff1f99191fc1110f001f99191f1b110f001f99191f1b11ffff1f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61813 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000000000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f1111ffff1f99191fc1110f001f99191f1b110f001f99191f1b11ffff1f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59472(s) {
+function inline__P61817(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3454,17 +3454,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = animation_stopAnimation__P32956_mk(s);
     s.tmp_0.arg0 = 0;
-    s.tmp_0.arg1 = globals.astronaut___59124;
+    s.tmp_0.arg1 = globals.astronaut___61469;
     s.callLocIdx = 179; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = Sprite_setImage__P31979_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
-    r0 = pxsim.image.ofBuffer(_hex59480);
+    s.tmp_0.arg0 = globals.astronaut___61469;
+    r0 = pxsim.image.ofBuffer(_hex61825);
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 180; s.pc = 4; return s.tmp_0;
   case 4:
@@ -3475,22 +3475,22 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59472.info = {"start":86193,"length":882,"line":891,"column":56,"endLine":913,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61817.info = {"start":86193,"length":882,"line":891,"column":56,"endLine":913,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59472_mk(s) {
+function inline__P61817_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59472, depth: s.depth + 1,
+        parent: s, fn: inline__P61817, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex59480 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9111ffffff0000f0ffff00f000000000000000f0000000000000000000000000000000000000000000000000000000")
+const _hex61825 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00f00000001f99190ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9111ffffff0000f0ffff00f000000000000000f0000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59483(s) {
+function inline__P61828(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3521,36 +3521,36 @@ switch (step) {
   case 2:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.rocksLeftinMars___59412;
+    s.tmp_0.arg0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 185; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59499);
+    r0 = pxsim.image.ofBuffer(_hex61844);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Enemy___32071;
     s.callLocIdx = 186; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
-    globals.Juanito___59495 = (r0);
+    globals.Juanito___61840 = (r0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex59505);
+    r0 = pxsim.image.ofBuffer(_hex61850);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex59507);
+    r0 = pxsim.image.ofBuffer(_hex61852);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex59509);
+    r0 = pxsim.image.ofBuffer(_hex61854);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex59511);
+    r0 = pxsim.image.ofBuffer(_hex61856);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
     s.tmp_5 = animation_runImageAnimation__P32950_mk(s);
-    s.tmp_5.arg0 = globals.Juanito___59495;
+    s.tmp_5.arg0 = globals.Juanito___61840;
     s.tmp_5.arg1 = s.tmp_0;
     s.tmp_5.arg2 = 100;
     s.tmp_5.arg3 = true;
@@ -3558,7 +3558,7 @@ switch (step) {
   case 6:
     r0 = s.retval;
     s.tmp_0 = tiles_placeOnRandomTile__P32362_mk(s);
-    s.tmp_0.arg0 = globals.Juanito___59495;
+    s.tmp_0.arg0 = globals.Juanito___61840;
     s.tmp_1 = helpers_getTileByName__P32926_mk(s);
     s.tmp_1.arg0 = "myTile7";
     s.callLocIdx = 188; s.pc = 8; return s.tmp_1;
@@ -3569,23 +3569,23 @@ switch (step) {
   case 7:
     r0 = s.retval;
     s.tmp_0 = Sprite_follow__P32018_mk(s);
-    s.tmp_0.arg0 = globals.Juanito___59495;
-    s.tmp_0.arg1 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.Juanito___61840;
+    s.tmp_0.arg1 = globals.astronaut___61469;
     s.tmp_0.arg2 = 36;
     s.tmp_0.arg3 = 400;
     s.callLocIdx = 190; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59524);
+    r0 = pxsim.image.ofBuffer(_hex61869);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.bigRocketKind___59097;
+    s.tmp_0.arg1 = globals.bigRocketKind___61442;
     s.callLocIdx = 191; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
-    globals.rocketMars___59520 = (r0);
+    globals.rocketMars___61865 = (r0);
     s.tmp_0 = tiles_placeOnRandomTile__P32362_mk(s);
-    s.tmp_0.arg0 = globals.rocketMars___59520;
+    s.tmp_0.arg0 = globals.rocketMars___61865;
     s.tmp_1 = helpers_getTileByName__P32926_mk(s);
     s.tmp_1.arg0 = "myTile7";
     s.callLocIdx = 192; s.pc = 12; return s.tmp_1;
@@ -3599,12 +3599,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59483.info = {"start":87125,"length":4224,"line":914,"column":48,"endLine":1047,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["status"]}
+inline__P61828.info = {"start":87125,"length":4224,"line":914,"column":48,"endLine":1047,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["status"]}
 
-function inline__P59483_mk(s) {
+function inline__P61828_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59483, depth: s.depth + 1,
+        parent: s, fn: inline__P61828, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3615,17 +3615,17 @@ function inline__P59483_mk(s) {
   arg0: undefined,
 } }
 
-const _hex59499 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000007000000077007000700000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777007000007007707007000007700000000700000")
-const _hex59505 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000007000000077007000700000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777007000007007707007000007700000000700000")
-const _hex59507 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000000000000077007000770000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777000000007007707007700007700000000700000")
-const _hex59509 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000700000000077007000770000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777000000007007707007700007700000000000000")
-const _hex59511 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000000000000077007000770000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777000000007007707007700007700000000700000")
-const _hex59524 = pxsim.BufferMethods.createBufferFromHex("8704100020000000000000000020111111000000000000220000dd2222221111111111010000202200d0dd2222222211111111112122222200d0dd2222222212991911112222220200dddd2d22222222999911222222220200dddd2d222222999999292222222200d0dddd2d222222999999292222222200dddddd2d222222999999992222222200dddddd2d222222999999992222222200d0dddd2d22222292999999222222220000dddd2d22222292999919112222220000d0dd2d2222222299991111212222000000dd2d2222221111111111112222020000d02d2222121111111111112222220000d02222221111111111000000222200000000000010111101000000000022")
+const _hex61844 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000007000000077007000700000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777007000007007707007000007700000000700000")
+const _hex61850 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000007000000077007000700000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777007000007007707007000007700000000700000")
+const _hex61852 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000000000000077007000770000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777000000007007707007700007700000000700000")
+const _hex61854 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000700000000077007000770000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777000000007007707007700007700000000000000")
+const _hex61856 = pxsim.BufferMethods.createBufferFromHex("87040d00100000007007000000000000070000000000000077007000770000007077777770000070007777f77000007700777f7f77777700007f77ff7777770000f777f77f777700007f7777777700770077f77770000070707777777000000007007707007700007700000000700000")
+const _hex61869 = pxsim.BufferMethods.createBufferFromHex("8704100020000000000000000020111111000000000000220000dd2222221111111111010000202200d0dd2222222211111111112122222200d0dd2222222212991911112222220200dddd2d22222222999911222222220200dddd2d222222999999292222222200d0dddd2d222222999999292222222200dddddd2d222222999999992222222200dddddd2d222222999999992222222200d0dddd2d22222292999999222222220000dddd2d22222292999919112222220000d0dd2d2222222299991111212222000000dd2d2222221111111111112222020000d02d2222121111111111112222220000d02222221111111111000000222200000000000010111101000000000022")
 
 
 
 
-function inline__P59533(s) {
+function inline__P61878(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3635,25 +3635,25 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
-    globals.astronautDirection___59127 = (3);
+    globals.astronautDirection___61472 = (3);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex59540);
+    r0 = pxsim.image.ofBuffer(_hex61885);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex59542);
+    r0 = pxsim.image.ofBuffer(_hex61887);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex59544);
+    r0 = pxsim.image.ofBuffer(_hex61889);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex59546);
+    r0 = pxsim.image.ofBuffer(_hex61891);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
     s.tmp_5 = animation_runImageAnimation__P32950_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.tmp_5.arg1 = s.tmp_0;
     s.tmp_5.arg2 = 100;
     s.tmp_5.arg3 = true;
@@ -3666,12 +3666,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59533.info = {"start":91407,"length":3132,"line":1048,"column":56,"endLine":1126,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61878.info = {"start":91407,"length":3132,"line":1048,"column":56,"endLine":1126,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59533_mk(s) {
+function inline__P61878_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59533, depth: s.depth + 1,
+        parent: s, fn: inline__P61878, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3681,15 +3681,15 @@ function inline__P59533_mk(s) {
   tmp_5: undefined,
 } }
 
-const _hex59540 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f1111fff01f99191fc1110f0f1f99191f1b110f001f99191f1b11ff001f9919fffffff0ff1f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
-const _hex59542 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f11110f001f99191fc111ff001f99191f1b110fff1f99191f1b11ff0f1f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
-const _hex59544 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f11110f001f99191fc111ff001f99191f1b110fff1f99191f1b11ff0f1f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
-const _hex59546 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f11110ff01f99191fc111ff0f1f99191f1b110f0f1f99191f1b11fff01f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61885 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f1111fff01f99191fc1110f0f1f99191f1b110f001f99191f1b11ff001f9919fffffff0ff1f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61887 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f11110f001f99191fc111ff001f99191f1b110fff1f99191f1b11ff0f1f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61889 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f11110f001f99191fc111ff001f99191f1b110fff1f99191f1b11ff0f1f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61891 = pxsim.BufferMethods.createBufferFromHex("870410001000000000000000000000000000000000000000000000000f00000000000000f0000000f0ffff00f00000001f9111ffffff00001f99191f11110ff01f99191fc111ff0f1f99191f1b110f0f1f99191f1b11fff01f9919ffffff00001f99190ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59550(s) {
+function inline__P61895(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3719,12 +3719,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59550.info = {"start":94596,"length":130,"line":1127,"column":55,"endLine":1130,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P61895.info = {"start":94596,"length":130,"line":1127,"column":55,"endLine":1130,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59550_mk(s) {
+function inline__P61895_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59550, depth: s.depth + 1,
+        parent: s, fn: inline__P61895, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -3735,7 +3735,7 @@ function inline__P59550_mk(s) {
 
 
 
-function inline__P59559(s) {
+function inline__P61904(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3745,17 +3745,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = animation_stopAnimation__P32956_mk(s);
     s.tmp_0.arg0 = 0;
-    s.tmp_0.arg1 = globals.astronaut___59124;
+    s.tmp_0.arg1 = globals.astronaut___61469;
     s.callLocIdx = 200; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = Sprite_setImage__P31979_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
-    r0 = pxsim.image.ofBuffer(_hex59567);
+    s.tmp_0.arg0 = globals.astronaut___61469;
+    r0 = pxsim.image.ofBuffer(_hex61912);
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 201; s.pc = 4; return s.tmp_0;
   case 4:
@@ -3766,22 +3766,22 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59559.info = {"start":94782,"length":882,"line":1131,"column":54,"endLine":1153,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61904.info = {"start":94782,"length":882,"line":1131,"column":54,"endLine":1153,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59559_mk(s) {
+function inline__P61904_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59559, depth: s.depth + 1,
+        parent: s, fn: inline__P61904, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex59567 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00000001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
+const _hex61912 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffef00f00000001f11110ef00000001f1111fefeff00001f1111efee1effff1f1111efee1e0f001f1111efee1e0f001f1111efee1effff1f1111fffeff00001f11110ff0000000f0ffff00f0000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59571(s) {
+function inline__P61916(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3791,28 +3791,28 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 1; continue; }
-    globals.astronautDirection___59127 = (4);
+    globals.astronautDirection___61472 = (4);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex59578);
+    r0 = pxsim.image.ofBuffer(_hex61923);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex59580);
+    r0 = pxsim.image.ofBuffer(_hex61925);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex59582);
+    r0 = pxsim.image.ofBuffer(_hex61927);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex59584);
+    r0 = pxsim.image.ofBuffer(_hex61929);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
-    r0 = pxsim.image.ofBuffer(_hex59586);
+    r0 = pxsim.image.ofBuffer(_hex61931);
     s.tmp_5 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_5);
     s.tmp_6 = animation_runImageAnimation__P32950_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.tmp_6.arg1 = s.tmp_0;
     s.tmp_6.arg2 = 80;
     s.tmp_6.arg3 = true;
@@ -3825,12 +3825,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59571.info = {"start":95721,"length":3870,"line":1154,"column":55,"endLine":1249,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P61916.info = {"start":95721,"length":3870,"line":1154,"column":55,"endLine":1249,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59571_mk(s) {
+function inline__P61916_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59571, depth: s.depth + 1,
+        parent: s, fn: inline__P61916, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3841,16 +3841,16 @@ function inline__P59571_mk(s) {
   tmp_6: undefined,
 } }
 
-const _hex59578 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
-const _hex59580 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ff0f1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
-const _hex59582 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f11110f001f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
-const _hex59584 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ff0f1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
-const _hex59586 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b110f001f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
+const _hex61923 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
+const _hex61925 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f1111ff0f1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
+const _hex61927 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ffff1f99191f1b110f001f99191fc1110f001f99191f11110f001f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
+const _hex61929 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b11ff0f1f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
+const _hex61931 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000000000000000000000000000f0ffff00ff0000001f91110ff00000001f9919ffffff00001f99191f1b110f001f99191f1b110f001f99191fc1110f001f99191f1111ffff1f9919ffffff00001f91110ff0000000f0ffff00ff000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P59591(s) {
+function inline__P61936(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3884,12 +3884,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59591.info = {"start":99662,"length":179,"line":1250,"column":69,"endLine":1254,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
+inline__P61936.info = {"start":99662,"length":179,"line":1250,"column":69,"endLine":1254,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
 
-function inline__P59591_mk(s) {
+function inline__P61936_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59591, depth: s.depth + 1,
+        parent: s, fn: inline__P61936, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -3900,7 +3900,7 @@ function inline__P59591_mk(s) {
 
 
 
-function inline__P59602(s) {
+function inline__P61947(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3927,7 +3927,7 @@ switch (step) {
   case 1:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P34340_mk(s);
-    s.tmp_1 = r0 = globals.rocksLeftinMars___59412;
+    s.tmp_1 = r0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg0 = r0;
     s.tmp_3 = StatusBarSprite_value__P34339_mk(s);
     s.tmp_3.arg0 = s.tmp_1;
@@ -3944,12 +3944,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59602.info = {"start":99924,"length":116,"line":1258,"column":62,"endLine":1261,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
+inline__P61947.info = {"start":99924,"length":116,"line":1258,"column":62,"endLine":1261,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
 
-function inline__P59602_mk(s) {
+function inline__P61947_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59602, depth: s.depth + 1,
+        parent: s, fn: inline__P61947, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3963,7 +3963,7 @@ function inline__P59602_mk(s) {
 
 
 
-function inline__P59618(s) {
+function inline__P61963(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3989,27 +3989,27 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P31865_mk(s);
-    s.tmp_2.arg0 = globals.rockCollectionButton___59237;
+    s.tmp_2.arg0 = globals.rockCollectionButton___61582;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 216; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.mouse___59228;
+    s.tmp_0.arg0 = globals.mouse___61573;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 217; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.creativeModeButton___59246;
+    s.tmp_0.arg0 = globals.creativeModeButton___61591;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 218; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.marsMode___59278 = (2);
+    globals.marsMode___61623 = (2);
     s.tmp_0 = music_play__P31510_mk(s);
     s.tmp_1 = music_melodyPlayable__P31511_mk(s);
     s.tmp_1.arg0 = globals.baDing___31234;
@@ -4022,64 +4022,64 @@ switch (step) {
   case 7:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59643);
+    r0 = pxsim.image.ofBuffer(_hex61988);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 221; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
-    globals.engine___59149 = (r0);
+    globals.engine___61494 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.engine___59149;
+    s.tmp_0.arg0 = globals.engine___61494;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 101;
     s.callLocIdx = 222; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59650);
+    r0 = pxsim.image.ofBuffer(_hex61995);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 223; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.body___59201 = (r0);
+    globals.body___61546 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.body___59201;
+    s.tmp_0.arg0 = globals.body___61546;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 61;
     s.callLocIdx = 224; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59657);
+    r0 = pxsim.image.ofBuffer(_hex62002);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 225; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
-    globals.tip___59299 = (r0);
+    globals.tip___61644 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.tip___59299;
+    s.tmp_0.arg0 = globals.tip___61644;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 20;
     s.callLocIdx = 226; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
-    globals.enginePlace___59158 = (1);
-    globals.bodyPlace___59210 = (1);
-    globals.tipPlace___59310 = (1);
-    globals.selectPlace___59313 = (globals.ENGINE_SELECTION___59316);
+    globals.enginePlace___61503 = (1);
+    globals.bodyPlace___61555 = (1);
+    globals.tipPlace___61655 = (1);
+    globals.selectPlace___61658 = (globals.ENGINE_SELECTION___61661);
     s.tmp_0 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59669);
+    r0 = pxsim.image.ofBuffer(_hex62014);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___32068;
     s.callLocIdx = 227; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
-    globals.arrows___59328 = (r0);
+    globals.arrows___61673 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.arrows___59328;
+    s.tmp_0.arg0 = globals.arrows___61673;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 101;
     s.callLocIdx = 228; s.pc = 16; return s.tmp_0;
@@ -4092,7 +4092,7 @@ switch (step) {
   case 17:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59677);
+    r0 = pxsim.image.ofBuffer(_hex62022);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 230; s.pc = 18; return s.tmp_0;
   case 18:
@@ -4103,12 +4103,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59618.info = {"start":100107,"length":27329,"line":1262,"column":65,"endLine":1528,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P61963.info = {"start":100107,"length":27329,"line":1262,"column":65,"endLine":1528,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59618_mk(s) {
+function inline__P61963_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59618, depth: s.depth + 1,
+        parent: s, fn: inline__P61963, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -4117,16 +4117,16 @@ function inline__P59618_mk(s) {
   arg1: undefined,
 } }
 
-const _hex59643 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000cccc00000000ff00000c00d0c4cc0000f0fffe0000ccd0ddc4ccccffefddfe0000ccdcddc44444e4eeddfd0000ccdddd44cceceeeeddfd0000deddbdcccceeeeced4fd0000ded4bbcceeeeeeeed4fd0000eebcbbebeeeee4ccccf40000eebbbbbbeeeee4cccc0c0000eebbbbbbeeeee4cccc0c0000bebbbbbbeeee4ec4cc000000bbbbbbebeeeefe0400000000bbbbbb4beeeebe0b00000000bbbbcbc4ccecbbbb00000000bebbccc4ccecbbbb0b000000eee4ccdcddedbbbbbb000000eee4ccdcddddbebbbb000000eee4ccddddddddbbbb000000eee4ceddddddddbb0b0000004eeecedcddddedfe00000000eebbbbecddddee4eff000000eebb44bbbbdbeee4ee0f0000ee4bb4bbbbebee44eefe00004eb4bbbbbbeb4e4ee4fe0000eececcbbbbeb4eee44fe0000eeccccbbbbeb4eeeeefe0000cfccccffbbbbbbbbeefe0000cccc0c00b0bbbbbbeefe0000c0cc0c00b0bbbbbbfffe000000000000b0bbbbbb00ff0000")
-const _hex59650 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000eeeeeeeeeeeeee0e000000eeeeeeee444444eeeeeebbeeeeeeeeeeeeeeee0000eeeeeeeeeeeeee0e000000eeee4e44444444eebebbbbebeeeeeeeeeeeeee0000eeeeeeeeeeeeee00000000e0ee4444444444bbbbbbbbebeeeeeeeeeeeeee0000eeeeeeeeeeee0e00000000ee4e4444444444bbbbbbbbbbeeeeeeeeeeeeee0000eeeeeeeeee4e4400000000eede4d44444444bbbbbbbbebcccceeeeee44ee0000deddddee4e4444440440eeeedddd4d444444bbbbbbbbccccccec444444ee0000dedddd44444444444444eeeedddddd4d4444bbbbbbcccbcccc4c444444e40000eedddd44444444444444eededdddddddedbebbbbcbcccccccc44444444e40000eedddd4d4444444444bbeededdddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444b4bbeeeeddddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444bbbbeeeeeeeeeeddedbebbbbcccccccccc44444444ee0000eededd4444444444bbbbebeeeeeeeeeeeeeebecbcccccccccc44444444ee0000eede4d44444444b4bbbbebeeeeeeeeeeeeeeeebbcccccccccc44444444ee0000eeee4e44444444b4bbbbebeeeeee00e0eeeeeeeecccccccccc444444e4ee0000eeeeee4444ccccbcbbbbbbeeee0e0000eeeeeeeeeecccccccc4c4444eeee0000eeeeee44c4ccccccbbbbbbeeee0e000000eeeeeeeeeecccccc4c44e4eeee0000eeeeee4eccccccccbcbbbbeeeeee000000eeeeeeeeeeeecccceceeeeeeee0000eeeeeececcccccccbcbbbbebeeee000000e0eedeedeeeececceeeeeeeeee0000eeeeeeccccccccccccbbbbebeeee0e0000e0eededdeeeeeeceeeeeeeeeee0000eeeeeeccccccccccbcbbbbbbeeeebe0ee0eeeeddddeeeeeeeeeeeeee44440000ebeececcccccccbbbbbbbbbbeeeebebbeeeededdddddeeeeeeeeee4444440000bbbbcecccccceebebbbbbbbbeeeebbbbbbbbdbddddddeeeeeeee444444440000bbbbcbcccceceeeebbbbbbbbeeeebbbbbbbbdbddddddedeeeeee444444440000bbbbeecccceeeeeebebbebeeeebebbbbbbbbddddddddddeeee4e444444440000bbbbeeeeeeeeeeeeeeeeeeeeeebebbbbbbbbddddedeeeeeeee44444444440000bfbbebeeeeeeeeeeeeeeeeeeeebbbbbbbbebdeddeeeeeeeeee44444444440000fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000")
-const _hex59657 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ffffff0f00000000000000f04444440e00000000000000f04444440e0000000000ffffff4e44e40e0000000000bfbbbbbb44e40e0000ffffffbfbbbbbbeeee0e0000cfccccccbbbbbbeeee0e00f0ccccccccbbbbbbeeee0e00f0ccccccccbbbbbb44e40e00f0cccccccceeeeee44440400cfcccccceeeeee4e44440400f0cfccdcddedee4e44440e00efeeeedddddd4d4444440ef0eeeeeedddddd4d4444440e00efeededddddddd4d44440e00efeedbddddddddedeeee0ef0bbbbbbddddddddedeeee0ef0bbbbbbdbddddddedeeee0ef0bbbbbbbbdeddddeeeeee0ef0bbbbbbbbeeddddeeeeee0ef0bbbbbbbbffdfedeeeeee0ef0ffffffff0fffefeeeeee0e00000000000000ff4ee4ee0e00000000000000f04ee4ee0e00000000000000ff4444e40e000000000000004f4444e40e00000000000000ffffffff0f")
-const _hex59669 = pxsim.BufferMethods.createBufferFromHex("87044600100000000000000000000000ff000000000000f0f00f00000000000f00f000000000f00f00f00f000000ff000000f00000f000000000f00f00f000000000000f000f0000000000ffff000000000000f00f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f00f000000000000ffff0000000000f00ff000000000f00f00f0ff000000ff000000f00f00f000000000000f00ff0000000000fff0000000000000f0")
-const _hex59677 = pxsim.BufferMethods.createBufferFromHex("8704a0007800000099999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999d9dddddddddddddddd77777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddd7d777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999d9dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddd7777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999997777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999d9dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddd777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777")
+const _hex61988 = pxsim.BufferMethods.createBufferFromHex("87041e0014000000000000cccc00000000ff00000c00d0c4cc0000f0fffe0000ccd0ddc4ccccffefddfe0000ccdcddc44444e4eeddfd0000ccdddd44cceceeeeddfd0000deddbdcccceeeeced4fd0000ded4bbcceeeeeeeed4fd0000eebcbbebeeeee4ccccf40000eebbbbbbeeeee4cccc0c0000eebbbbbbeeeee4cccc0c0000bebbbbbbeeee4ec4cc000000bbbbbbebeeeefe0400000000bbbbbb4beeeebe0b00000000bbbbcbc4ccecbbbb00000000bebbccc4ccecbbbb0b000000eee4ccdcddedbbbbbb000000eee4ccdcddddbebbbb000000eee4ccddddddddbbbb000000eee4ceddddddddbb0b0000004eeecedcddddedfe00000000eebbbbecddddee4eff000000eebb44bbbbdbeee4ee0f0000ee4bb4bbbbebee44eefe00004eb4bbbbbbeb4e4ee4fe0000eececcbbbbeb4eee44fe0000eeccccbbbbeb4eeeeefe0000cfccccffbbbbbbbbeefe0000cccc0c00b0bbbbbbeefe0000c0cc0c00b0bbbbbbfffe000000000000b0bbbbbb00ff0000")
+const _hex61995 = pxsim.BufferMethods.createBufferFromHex("87041c003c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000eeeeeeeeeeeeee0e000000eeeeeeee444444eeeeeebbeeeeeeeeeeeeeeee0000eeeeeeeeeeeeee0e000000eeee4e44444444eebebbbbebeeeeeeeeeeeeee0000eeeeeeeeeeeeee00000000e0ee4444444444bbbbbbbbebeeeeeeeeeeeeee0000eeeeeeeeeeee0e00000000ee4e4444444444bbbbbbbbbbeeeeeeeeeeeeee0000eeeeeeeeee4e4400000000eede4d44444444bbbbbbbbebcccceeeeee44ee0000deddddee4e4444440440eeeedddd4d444444bbbbbbbbccccccec444444ee0000dedddd44444444444444eeeedddddd4d4444bbbbbbcccbcccc4c444444e40000eedddd44444444444444eededdddddddedbebbbbcbcccccccc44444444e40000eedddd4d4444444444bbeededdddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444b4bbeeeeddddddddedbebbbbcccccccccc44444444e40000eedddd4d44444444bbbbeeeeeeeeeeddedbebbbbcccccccccc44444444ee0000eededd4444444444bbbbebeeeeeeeeeeeeeebecbcccccccccc44444444ee0000eede4d44444444b4bbbbebeeeeeeeeeeeeeeeebbcccccccccc44444444ee0000eeee4e44444444b4bbbbebeeeeee00e0eeeeeeeecccccccccc444444e4ee0000eeeeee4444ccccbcbbbbbbeeee0e0000eeeeeeeeeecccccccc4c4444eeee0000eeeeee44c4ccccccbbbbbbeeee0e000000eeeeeeeeeecccccc4c44e4eeee0000eeeeee4eccccccccbcbbbbeeeeee000000eeeeeeeeeeeecccceceeeeeeee0000eeeeeececcccccccbcbbbbebeeee000000e0eedeedeeeececceeeeeeeeee0000eeeeeeccccccccccccbbbbebeeee0e0000e0eededdeeeeeeceeeeeeeeeee0000eeeeeeccccccccccbcbbbbbbeeeebe0ee0eeeeddddeeeeeeeeeeeeee44440000ebeececcccccccbbbbbbbbbbeeeebebbeeeededdddddeeeeeeeeee4444440000bbbbcecccccceebebbbbbbbbeeeebbbbbbbbdbddddddeeeeeeee444444440000bbbbcbcccceceeeebbbbbbbbeeeebbbbbbbbdbddddddedeeeeee444444440000bbbbeecccceeeeeebebbebeeeebebbbbbbbbddddddddddeeee4e444444440000bbbbeeeeeeeeeeeeeeeeeeeeeebebbbbbbbbddddedeeeeeeee44444444440000bfbbebeeeeeeeeeeeeeeeeeeeebbbbbbbbebdeddeeeeeeeeee44444444440000fbffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000")
+const _hex62002 = pxsim.BufferMethods.createBufferFromHex("87041b001700000000000000000000f0ffffff0f00000000000000f04444440e00000000000000f04444440e0000000000ffffff4e44e40e0000000000bfbbbbbb44e40e0000ffffffbfbbbbbbeeee0e0000cfccccccbbbbbbeeee0e00f0ccccccccbbbbbbeeee0e00f0ccccccccbbbbbb44e40e00f0cccccccceeeeee44440400cfcccccceeeeee4e44440400f0cfccdcddedee4e44440e00efeeeedddddd4d4444440ef0eeeeeedddddd4d4444440e00efeededddddddd4d44440e00efeedbddddddddedeeee0ef0bbbbbbddddddddedeeee0ef0bbbbbbdbddddddedeeee0ef0bbbbbbbbdeddddeeeeee0ef0bbbbbbbbeeddddeeeeee0ef0bbbbbbbbffdfedeeeeee0ef0ffffffff0fffefeeeeee0e00000000000000ff4ee4ee0e00000000000000f04ee4ee0e00000000000000ff4444e40e000000000000004f4444e40e00000000000000ffffffff0f")
+const _hex62014 = pxsim.BufferMethods.createBufferFromHex("87044600100000000000000000000000ff000000000000f0f00f00000000000f00f000000000f00f00f00f000000ff000000f00000f000000000f00f00f000000000000f000f0000000000ffff000000000000f00f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f00f000000000000ffff0000000000f00ff000000000f00f00f0ff000000ff000000f00f00f000000000000f00ff0000000000fff0000000000000f0")
+const _hex62022 = pxsim.BufferMethods.createBufferFromHex("8704a0007800000099999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999d9dddddddddddddddd77777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddddd7777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999d9dddddddddd7d777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddddd7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddd7d77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddd77777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999dddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddd77777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999dddddddddddddddddd777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddd7d777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999999d9dddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999dddddddddddddddddddd7d77777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd77777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd7d7777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddddddd7d777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999d9dddddddddddddddd7d777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd7d77777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999dddddddddddddd77777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999dddddddddddddddd777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999d9dddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999d9dddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999dddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999999999dddddddddddddddddddddddddddddddd7d77777777777777777777777777777777777777777777777777999999999999999999999999999999d9dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d7777777777777777777777777777777777777777777777777799999999999999999999999999d9dddddddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777779999999999999999999999999999dddddddddddddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999dddddddddddddddddddddddddddddddddddd7d777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddd77777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dddddddddddddddddddd7d7777777777777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999d9dddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999d9dddddddd7777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999997777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999d9dd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999999999dddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999d9dddddd7777777777777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd77777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddd7d777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddd777777777777777777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777999999999999999999999999999999999999d9dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd777777777777777777777777777777777777777777777777777799999999999999999999999999999999999999dddddddddddddddddddddddddddddd7777777777777777777777777777777777777777777777777777")
 
 
 
 
-function inline__P59681(s) {
+function inline__P62026(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -4142,21 +4142,21 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.rocketMars___59520;
+    s.tmp_0.arg0 = globals.rocketMars___61865;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 232; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.Juanito___59495;
+    s.tmp_0.arg0 = globals.Juanito___61840;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 233; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.astronaut___59124;
+    s.tmp_0.arg0 = globals.astronaut___61469;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 234; s.pc = 15; return s.tmp_0;
@@ -4179,59 +4179,59 @@ switch (step) {
   case 17:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59703);
+    r0 = pxsim.image.ofBuffer(_hex62048);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 238; s.pc = 19; return s.tmp_0;
   case 19:
     r0 = s.retval;
-    r0 = (globals.color2___59325 == 4);
+    r0 = (globals.color2___61670 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_1 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59709);
+    r0 = pxsim.image.ofBuffer(_hex62054);
     s.tmp_1.arg0 = r0;
     s.tmp_1.arg1 = globals.Player___32068;
     s.callLocIdx = 239; s.pc = 20; return s.tmp_1;
   case 20:
     r0 = s.retval;
-    globals.rocket___59389 = (r0);
+    globals.rocket___61734 = (r0);
   case 1:
   case 2:
-    r0 = (globals.color2___59325 == 5);
+    r0 = (globals.color2___61670 == 5);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_1 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59716);
+    r0 = pxsim.image.ofBuffer(_hex62061);
     s.tmp_1.arg0 = r0;
     s.tmp_1.arg1 = globals.Player___32068;
     s.callLocIdx = 240; s.pc = 21; return s.tmp_1;
   case 21:
     r0 = s.retval;
-    globals.rocket___59389 = (r0);
+    globals.rocket___61734 = (r0);
   case 3:
   case 4:
-    r0 = (globals.color2___59325 == 6);
+    r0 = (globals.color2___61670 == 6);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
     s.tmp_1 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex59723);
+    r0 = pxsim.image.ofBuffer(_hex62068);
     s.tmp_1.arg0 = r0;
     s.tmp_1.arg1 = globals.Player___32068;
     s.callLocIdx = 241; s.pc = 22; return s.tmp_1;
   case 22:
     r0 = s.retval;
-    globals.rocket___59389 = (r0);
+    globals.rocket___61734 = (r0);
   case 5:
   case 6:
-    r0 = (globals.velocity___59319 == 1);
+    r0 = (globals.velocity___61664 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 3;
     s.tmp_1.arg2 = 3;
     s.callLocIdx = 242; s.pc = 23; return s.tmp_1;
@@ -4239,12 +4239,12 @@ switch (step) {
     r0 = s.retval;
   case 7:
   case 8:
-    r0 = (globals.velocity___59319 == 2);
+    r0 = (globals.velocity___61664 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 5;
     s.tmp_1.arg2 = 5;
     s.callLocIdx = 243; s.pc = 24; return s.tmp_1;
@@ -4252,12 +4252,12 @@ switch (step) {
     r0 = s.retval;
   case 9:
   case 10:
-    r0 = (globals.velocity___59319 == 3);
+    r0 = (globals.velocity___61664 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 7;
     s.tmp_1.arg2 = 7;
     s.callLocIdx = 244; s.pc = 25; return s.tmp_1;
@@ -4266,7 +4266,7 @@ switch (step) {
   case 11:
   case 12:
     s.tmp_0 = tiles_placeOnTile__P32361_mk(s);
-    s.tmp_0.arg0 = globals.rocket___59389;
+    s.tmp_0.arg0 = globals.rocket___61734;
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_1.arg0 = 8;
     s.tmp_1.arg1 = 5;
@@ -4278,7 +4278,7 @@ switch (step) {
   case 26:
     r0 = s.retval;
     s.tmp_0 = scene_cameraFollowSprite__P32478_mk(s);
-    s.tmp_0.arg0 = globals.rocket___59389;
+    s.tmp_0.arg0 = globals.rocket___61734;
     s.callLocIdx = 247; s.pc = 28; return s.tmp_0;
   case 28:
     r0 = s.retval;
@@ -4286,12 +4286,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59681.info = {"start":127501,"length":21294,"line":1529,"column":63,"endLine":1686,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P62026.info = {"start":127501,"length":21294,"line":1529,"column":63,"endLine":1686,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P59681_mk(s) {
+function inline__P62026_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59681, depth: s.depth + 1,
+        parent: s, fn: inline__P62026, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -4299,15 +4299,15 @@ function inline__P59681_mk(s) {
   arg1: undefined,
 } }
 
-const _hex59703 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
-const _hex59709 = pxsim.BufferMethods.createBufferFromHex("8704020002000000e5000000ee000000")
-const _hex59716 = pxsim.BufferMethods.createBufferFromHex("87040200020000004500000022000000")
-const _hex59723 = pxsim.BufferMethods.createBufferFromHex("87040200020000009100000068000000")
+const _hex62048 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex62054 = pxsim.BufferMethods.createBufferFromHex("8704020002000000e5000000ee000000")
+const _hex62061 = pxsim.BufferMethods.createBufferFromHex("87040200020000004500000022000000")
+const _hex62068 = pxsim.BufferMethods.createBufferFromHex("87040200020000009100000068000000")
 
 
 
 
-function inline__P59746(s) {
+function inline__P62091(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -4334,7 +4334,7 @@ switch (step) {
   case 1:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P34340_mk(s);
-    s.tmp_1 = r0 = globals.rocksLeftinMars___59412;
+    s.tmp_1 = r0 = globals.rocksLeftinMars___61757;
     s.tmp_0.arg0 = r0;
     s.tmp_3 = StatusBarSprite_value__P34339_mk(s);
     s.tmp_3.arg0 = s.tmp_1;
@@ -4351,12 +4351,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59746.info = {"start":148859,"length":115,"line":1687,"column":62,"endLine":1690,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
+inline__P62091.info = {"start":148859,"length":115,"line":1687,"column":62,"endLine":1690,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","location"]}
 
-function inline__P59746_mk(s) {
+function inline__P62091_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59746, depth: s.depth + 1,
+        parent: s, fn: inline__P62091, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -4370,7 +4370,7 @@ function inline__P59746_mk(s) {
 
 
 
-function inline__P59828(s) {
+function inline__P62173(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -4380,16 +4380,16 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.selectPlace___59313 == globals.TRIP_IN_SPACE___59767);
+    r0 = (globals.selectPlace___61658 == globals.TRIP_IN_SPACE___62112);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
-    r0 = (globals.velocity___59319 == 1);
+    r0 = (globals.velocity___61664 == 1);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = controller_moveSprite__P31755_mk(s);
-    s.tmp_2.arg0 = globals.rocket___59389;
+    s.tmp_2.arg0 = globals.rocket___61734;
     s.tmp_2.arg1 = 3;
     s.tmp_2.arg2 = 3;
     s.callLocIdx = 265; s.pc = 15; return s.tmp_2;
@@ -4397,12 +4397,12 @@ switch (step) {
     r0 = s.retval;
   case 1:
   case 2:
-    r0 = (globals.velocity___59319 == 2);
+    r0 = (globals.velocity___61664 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 5;
     s.tmp_1.arg2 = 5;
     s.callLocIdx = 266; s.pc = 16; return s.tmp_1;
@@ -4410,12 +4410,12 @@ switch (step) {
     r0 = s.retval;
   case 3:
   case 4:
-    r0 = (globals.velocity___59319 == 3);
+    r0 = (globals.velocity___61664 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 5;
     s.tmp_1.arg2 = 5;
     s.callLocIdx = 267; s.pc = 17; return s.tmp_1;
@@ -4423,7 +4423,7 @@ switch (step) {
     r0 = s.retval;
   case 5:
   case 6:
-    r0 = (globals.fuel___59322 == 4);
+    r0 = (globals.fuel___61667 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
@@ -4432,10 +4432,10 @@ switch (step) {
     s.callLocIdx = 268; s.pc = 18; return s.tmp_1;
   case 18:
     r0 = s.retval;
-    globals.fuel___59322 = (7);
+    globals.fuel___61667 = (7);
   case 7:
   case 8:
-    r0 = (globals.fuel___59322 == 5);
+    r0 = (globals.fuel___61667 == 5);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
@@ -4444,10 +4444,10 @@ switch (step) {
     s.callLocIdx = 269; s.pc = 19; return s.tmp_1;
   case 19:
     r0 = s.retval;
-    globals.fuel___59322 = (8);
+    globals.fuel___61667 = (8);
   case 9:
   case 10:
-    r0 = (globals.fuel___59322 == 6);
+    r0 = (globals.fuel___61667 == 6);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
@@ -4456,7 +4456,7 @@ switch (step) {
     s.callLocIdx = 270; s.pc = 20; return s.tmp_1;
   case 20:
     r0 = s.retval;
-    globals.fuel___59322 = (9);
+    globals.fuel___61667 = (9);
   case 11:
   case 12:
   case 13:
@@ -4465,12 +4465,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59828.info = {"start":182047,"length":598,"line":2201,"column":8,"endLine":2225,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P62173.info = {"start":182047,"length":598,"line":2201,"column":8,"endLine":2225,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59828_mk(s) {
+function inline__P62173_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59828, depth: s.depth + 1,
+        parent: s, fn: inline__P62173, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -4481,7 +4481,7 @@ function inline__P59828_mk(s) {
 
 
 
-function inline__P59857(s) {
+function inline__P62202(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -4491,22 +4491,22 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.selectPlace___59313 == globals.ENGINE_SELECTION___59316);
+    r0 = (globals.selectPlace___61658 == globals.ENGINE_SELECTION___61661);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
     s.tmp_1 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_1.arg0 = globals.arrows___59328;
+    s.tmp_1.arg0 = globals.arrows___61673;
     s.tmp_1.arg1 = 76;
     s.tmp_1.arg2 = 101;
     s.callLocIdx = 272; s.pc = 15; return s.tmp_1;
   case 15:
     r0 = s.retval;
-    r0 = (globals.enginePlace___59158 == 1);
+    r0 = (globals.enginePlace___61503 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
-    globals.velocity___59319 = (1);
+    globals.velocity___61664 = (1);
     s.tmp_1 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_1.arg0 = globals.right___31705;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C31777_VT)) failedCast(s.tmp_1.arg0);
@@ -4517,8 +4517,8 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_2 = changeEngine__P59142_mk(s);
-    s.tmp_2.arg0 = globals.normalEngineImage___59778;
+    s.tmp_2 = changeEngine__P61487_mk(s);
+    s.tmp_2.arg0 = globals.normalEngineImage___62123;
     s.tmp_2.arg1 = 2;
     s.callLocIdx = 273; s.pc = 17; return s.tmp_2;
   case 17:
@@ -4527,11 +4527,11 @@ switch (step) {
   case 2:
   case 3:
   case 4:
-    r0 = (globals.enginePlace___59158 == 2);
+    r0 = (globals.enginePlace___61503 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
-    globals.velocity___59319 = (2);
+    globals.velocity___61664 = (2);
     s.tmp_1 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_1.arg0 = globals.right___31705;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C31777_VT)) failedCast(s.tmp_1.arg0);
@@ -4542,8 +4542,8 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
-    s.tmp_2 = changeEngine__P59142_mk(s);
-    s.tmp_2.arg0 = globals.modernEngineImage___59775;
+    s.tmp_2 = changeEngine__P61487_mk(s);
+    s.tmp_2.arg0 = globals.modernEngineImage___62120;
     s.tmp_2.arg1 = 3;
     s.callLocIdx = 274; s.pc = 19; return s.tmp_2;
   case 19:
@@ -4552,11 +4552,11 @@ switch (step) {
   case 6:
   case 7:
   case 8:
-    r0 = (globals.enginePlace___59158 == 3);
+    r0 = (globals.enginePlace___61503 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
-    globals.velocity___59319 = (3);
+    globals.velocity___61664 = (3);
     s.tmp_1 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_1.arg0 = globals.right___31705;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C31777_VT)) failedCast(s.tmp_1.arg0);
@@ -4567,8 +4567,8 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
-    s.tmp_2 = changeEngine__P59142_mk(s);
-    s.tmp_2.arg0 = globals.scrapEngineImage___59772;
+    s.tmp_2 = changeEngine__P61487_mk(s);
+    s.tmp_2.arg0 = globals.scrapEngineImage___62117;
     s.tmp_2.arg1 = 1;
     s.callLocIdx = 275; s.pc = 21; return s.tmp_2;
   case 21:
@@ -4583,12 +4583,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59857.info = {"start":182655,"length":639,"line":2226,"column":8,"endLine":2248,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P62202.info = {"start":182655,"length":639,"line":2226,"column":8,"endLine":2248,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59857_mk(s) {
+function inline__P62202_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59857, depth: s.depth + 1,
+        parent: s, fn: inline__P62202, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -4599,7 +4599,7 @@ function inline__P59857_mk(s) {
 
 
 
-function inline__P59885(s) {
+function inline__P62230(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -4609,20 +4609,20 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.marsMode___59278 == 2);
+    r0 = (globals.marsMode___61623 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (r0) { step = 1; continue; }
     r0 = s.tmp_0;
     { step = 2; continue; }
   case 1:
-    r0 = (globals.selectPlace___59313 == globals.ON_MARS___59383);
+    r0 = (globals.selectPlace___61658 == globals.ON_MARS___61728);
   case 2:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 61; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.astronaut___59124);
+    r0 = pxsim_numops_toBoolDecr(globals.astronaut___61469);
     if (!r0) { step = 59; continue; }
     s.tmp_3 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_3.arg0 = globals.A___31701;
@@ -4634,14 +4634,14 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 11; continue; }
-    r0 = (globals.astronautDirection___59127 == 1);
+    r0 = (globals.astronautDirection___61472 == 1);
     s.tmp_4 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_4);
     if (!r0) { step = 3; continue; }
     s.tmp_5 = tiles_setTileAt__P32353_mk(s);
     s.tmp_6 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_9 = Sprite_x__P31942_mk(s);
-    s.tmp_9.arg0 = globals.astronaut___59124;
+    s.tmp_9.arg0 = globals.astronaut___61469;
     s.callLocIdx = 277; s.pc = 66; return s.tmp_9;
   case 66:
     r0 = s.retval;
@@ -4651,7 +4651,7 @@ switch (step) {
     r0 = (s.tmp_7 - 1);
     s.tmp_6.arg0 = r0;
     s.tmp_11 = Sprite_y__P31944_mk(s);
-    s.tmp_11.arg0 = globals.astronaut___59124;
+    s.tmp_11.arg0 = globals.astronaut___61469;
     s.callLocIdx = 278; s.pc = 67; return s.tmp_11;
   case 67:
     r0 = s.retval;
@@ -4674,7 +4674,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 282; s.pc = 71; return s.tmp_4;
   case 71:
     r0 = s.retval;
@@ -4684,7 +4684,7 @@ switch (step) {
     r0 = (s.tmp_2 - 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 283; s.pc = 72; return s.tmp_6;
   case 72:
     r0 = s.retval;
@@ -4701,14 +4701,14 @@ switch (step) {
     r0 = s.retval;
   case 3:
   case 4:
-    r0 = (globals.astronautDirection___59127 == 2);
+    r0 = (globals.astronautDirection___61472 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 286; s.pc = 75; return s.tmp_4;
   case 75:
     r0 = s.retval;
@@ -4716,7 +4716,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 287; s.pc = 76; return s.tmp_7;
   case 76:
     r0 = s.retval;
@@ -4741,7 +4741,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 291; s.pc = 80; return s.tmp_3;
   case 80:
     r0 = s.retval;
@@ -4749,7 +4749,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 292; s.pc = 81; return s.tmp_6;
   case 81:
     r0 = s.retval;
@@ -4768,14 +4768,14 @@ switch (step) {
     r0 = s.retval;
   case 5:
   case 6:
-    r0 = (globals.astronautDirection___59127 == 3);
+    r0 = (globals.astronautDirection___61472 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_5 = Sprite_x__P31942_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.callLocIdx = 295; s.pc = 84; return s.tmp_5;
   case 84:
     r0 = s.retval;
@@ -4785,7 +4785,7 @@ switch (step) {
     r0 = (s.tmp_3 + 1);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 296; s.pc = 85; return s.tmp_7;
   case 85:
     r0 = s.retval;
@@ -4808,7 +4808,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 300; s.pc = 89; return s.tmp_4;
   case 89:
     r0 = s.retval;
@@ -4818,7 +4818,7 @@ switch (step) {
     r0 = (s.tmp_2 + 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 301; s.pc = 90; return s.tmp_6;
   case 90:
     r0 = s.retval;
@@ -4835,14 +4835,14 @@ switch (step) {
     r0 = s.retval;
   case 7:
   case 8:
-    r0 = (globals.astronautDirection___59127 == 4);
+    r0 = (globals.astronautDirection___61472 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 304; s.pc = 93; return s.tmp_4;
   case 93:
     r0 = s.retval;
@@ -4850,7 +4850,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 305; s.pc = 94; return s.tmp_7;
   case 94:
     r0 = s.retval;
@@ -4875,7 +4875,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 309; s.pc = 98; return s.tmp_3;
   case 98:
     r0 = s.retval;
@@ -4883,7 +4883,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 310; s.pc = 99; return s.tmp_6;
   case 99:
     r0 = s.retval;
@@ -4914,14 +4914,14 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 21; continue; }
-    r0 = (globals.astronautDirection___59127 == 1);
+    r0 = (globals.astronautDirection___61472 == 1);
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 13; continue; }
     s.tmp_3 = tiles_setTileAt__P32353_mk(s);
     s.tmp_4 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_7 = Sprite_x__P31942_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 313; s.pc = 103; return s.tmp_7;
   case 103:
     r0 = s.retval;
@@ -4931,7 +4931,7 @@ switch (step) {
     r0 = (s.tmp_5 - 1);
     s.tmp_4.arg0 = r0;
     s.tmp_9 = Sprite_y__P31944_mk(s);
-    s.tmp_9.arg0 = globals.astronaut___59124;
+    s.tmp_9.arg0 = globals.astronaut___61469;
     s.callLocIdx = 314; s.pc = 104; return s.tmp_9;
   case 104:
     r0 = s.retval;
@@ -4954,7 +4954,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 318; s.pc = 108; return s.tmp_4;
   case 108:
     r0 = s.retval;
@@ -4964,7 +4964,7 @@ switch (step) {
     r0 = (s.tmp_2 - 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 319; s.pc = 109; return s.tmp_6;
   case 109:
     r0 = s.retval;
@@ -4981,14 +4981,14 @@ switch (step) {
     r0 = s.retval;
   case 13:
   case 14:
-    r0 = (globals.astronautDirection___59127 == 2);
+    r0 = (globals.astronautDirection___61472 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 15; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 322; s.pc = 112; return s.tmp_4;
   case 112:
     r0 = s.retval;
@@ -4996,7 +4996,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 323; s.pc = 113; return s.tmp_7;
   case 113:
     r0 = s.retval;
@@ -5021,7 +5021,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 327; s.pc = 117; return s.tmp_3;
   case 117:
     r0 = s.retval;
@@ -5029,7 +5029,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 328; s.pc = 118; return s.tmp_6;
   case 118:
     r0 = s.retval;
@@ -5048,14 +5048,14 @@ switch (step) {
     r0 = s.retval;
   case 15:
   case 16:
-    r0 = (globals.astronautDirection___59127 == 3);
+    r0 = (globals.astronautDirection___61472 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 17; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_5 = Sprite_x__P31942_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.callLocIdx = 331; s.pc = 121; return s.tmp_5;
   case 121:
     r0 = s.retval;
@@ -5065,7 +5065,7 @@ switch (step) {
     r0 = (s.tmp_3 + 1);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 332; s.pc = 122; return s.tmp_7;
   case 122:
     r0 = s.retval;
@@ -5088,7 +5088,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 336; s.pc = 126; return s.tmp_4;
   case 126:
     r0 = s.retval;
@@ -5098,7 +5098,7 @@ switch (step) {
     r0 = (s.tmp_2 + 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 337; s.pc = 127; return s.tmp_6;
   case 127:
     r0 = s.retval;
@@ -5115,14 +5115,14 @@ switch (step) {
     r0 = s.retval;
   case 17:
   case 18:
-    r0 = (globals.astronautDirection___59127 == 4);
+    r0 = (globals.astronautDirection___61472 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 19; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 340; s.pc = 130; return s.tmp_4;
   case 130:
     r0 = s.retval;
@@ -5130,7 +5130,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 341; s.pc = 131; return s.tmp_7;
   case 131:
     r0 = s.retval;
@@ -5155,7 +5155,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 345; s.pc = 135; return s.tmp_3;
   case 135:
     r0 = s.retval;
@@ -5163,7 +5163,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 346; s.pc = 136; return s.tmp_6;
   case 136:
     r0 = s.retval;
@@ -5209,14 +5209,14 @@ switch (step) {
     s.tmp_3 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_3);
     if (!r0) { step = 33; continue; }
-    r0 = (globals.astronautDirection___59127 == 1);
+    r0 = (globals.astronautDirection___61472 == 1);
     s.tmp_4 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_4);
     if (!r0) { step = 25; continue; }
     s.tmp_5 = tiles_setTileAt__P32353_mk(s);
     s.tmp_6 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_9 = Sprite_x__P31942_mk(s);
-    s.tmp_9.arg0 = globals.astronaut___59124;
+    s.tmp_9.arg0 = globals.astronaut___61469;
     s.callLocIdx = 349; s.pc = 141; return s.tmp_9;
   case 141:
     r0 = s.retval;
@@ -5226,7 +5226,7 @@ switch (step) {
     r0 = (s.tmp_7 - 1);
     s.tmp_6.arg0 = r0;
     s.tmp_11 = Sprite_y__P31944_mk(s);
-    s.tmp_11.arg0 = globals.astronaut___59124;
+    s.tmp_11.arg0 = globals.astronaut___61469;
     s.callLocIdx = 350; s.pc = 142; return s.tmp_11;
   case 142:
     r0 = s.retval;
@@ -5249,7 +5249,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 354; s.pc = 146; return s.tmp_4;
   case 146:
     r0 = s.retval;
@@ -5259,7 +5259,7 @@ switch (step) {
     r0 = (s.tmp_2 - 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 355; s.pc = 147; return s.tmp_6;
   case 147:
     r0 = s.retval;
@@ -5276,14 +5276,14 @@ switch (step) {
     r0 = s.retval;
   case 25:
   case 26:
-    r0 = (globals.astronautDirection___59127 == 2);
+    r0 = (globals.astronautDirection___61472 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 27; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 358; s.pc = 150; return s.tmp_4;
   case 150:
     r0 = s.retval;
@@ -5291,7 +5291,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 359; s.pc = 151; return s.tmp_7;
   case 151:
     r0 = s.retval;
@@ -5316,7 +5316,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 363; s.pc = 155; return s.tmp_3;
   case 155:
     r0 = s.retval;
@@ -5324,7 +5324,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 364; s.pc = 156; return s.tmp_6;
   case 156:
     r0 = s.retval;
@@ -5343,14 +5343,14 @@ switch (step) {
     r0 = s.retval;
   case 27:
   case 28:
-    r0 = (globals.astronautDirection___59127 == 3);
+    r0 = (globals.astronautDirection___61472 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 29; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_5 = Sprite_x__P31942_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.callLocIdx = 367; s.pc = 159; return s.tmp_5;
   case 159:
     r0 = s.retval;
@@ -5360,7 +5360,7 @@ switch (step) {
     r0 = (s.tmp_3 + 1);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 368; s.pc = 160; return s.tmp_7;
   case 160:
     r0 = s.retval;
@@ -5383,7 +5383,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 372; s.pc = 164; return s.tmp_4;
   case 164:
     r0 = s.retval;
@@ -5393,7 +5393,7 @@ switch (step) {
     r0 = (s.tmp_2 + 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 373; s.pc = 165; return s.tmp_6;
   case 165:
     r0 = s.retval;
@@ -5410,14 +5410,14 @@ switch (step) {
     r0 = s.retval;
   case 29:
   case 30:
-    r0 = (globals.astronautDirection___59127 == 4);
+    r0 = (globals.astronautDirection___61472 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 31; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 376; s.pc = 168; return s.tmp_4;
   case 168:
     r0 = s.retval;
@@ -5425,7 +5425,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 377; s.pc = 169; return s.tmp_7;
   case 169:
     r0 = s.retval;
@@ -5450,7 +5450,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 381; s.pc = 173; return s.tmp_3;
   case 173:
     r0 = s.retval;
@@ -5458,7 +5458,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 382; s.pc = 174; return s.tmp_6;
   case 174:
     r0 = s.retval;
@@ -5504,14 +5504,14 @@ switch (step) {
     s.tmp_3 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_3);
     if (!r0) { step = 45; continue; }
-    r0 = (globals.astronautDirection___59127 == 1);
+    r0 = (globals.astronautDirection___61472 == 1);
     s.tmp_4 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_4);
     if (!r0) { step = 37; continue; }
     s.tmp_5 = tiles_setTileAt__P32353_mk(s);
     s.tmp_6 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_9 = Sprite_x__P31942_mk(s);
-    s.tmp_9.arg0 = globals.astronaut___59124;
+    s.tmp_9.arg0 = globals.astronaut___61469;
     s.callLocIdx = 385; s.pc = 179; return s.tmp_9;
   case 179:
     r0 = s.retval;
@@ -5521,7 +5521,7 @@ switch (step) {
     r0 = (s.tmp_7 - 1);
     s.tmp_6.arg0 = r0;
     s.tmp_11 = Sprite_y__P31944_mk(s);
-    s.tmp_11.arg0 = globals.astronaut___59124;
+    s.tmp_11.arg0 = globals.astronaut___61469;
     s.callLocIdx = 386; s.pc = 180; return s.tmp_11;
   case 180:
     r0 = s.retval;
@@ -5544,7 +5544,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 390; s.pc = 184; return s.tmp_4;
   case 184:
     r0 = s.retval;
@@ -5554,7 +5554,7 @@ switch (step) {
     r0 = (s.tmp_2 - 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 391; s.pc = 185; return s.tmp_6;
   case 185:
     r0 = s.retval;
@@ -5571,14 +5571,14 @@ switch (step) {
     r0 = s.retval;
   case 37:
   case 38:
-    r0 = (globals.astronautDirection___59127 == 2);
+    r0 = (globals.astronautDirection___61472 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 39; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 394; s.pc = 188; return s.tmp_4;
   case 188:
     r0 = s.retval;
@@ -5586,7 +5586,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 395; s.pc = 189; return s.tmp_7;
   case 189:
     r0 = s.retval;
@@ -5611,7 +5611,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 399; s.pc = 193; return s.tmp_3;
   case 193:
     r0 = s.retval;
@@ -5619,7 +5619,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 400; s.pc = 194; return s.tmp_6;
   case 194:
     r0 = s.retval;
@@ -5638,14 +5638,14 @@ switch (step) {
     r0 = s.retval;
   case 39:
   case 40:
-    r0 = (globals.astronautDirection___59127 == 3);
+    r0 = (globals.astronautDirection___61472 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 41; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_5 = Sprite_x__P31942_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.callLocIdx = 403; s.pc = 197; return s.tmp_5;
   case 197:
     r0 = s.retval;
@@ -5655,7 +5655,7 @@ switch (step) {
     r0 = (s.tmp_3 + 1);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 404; s.pc = 198; return s.tmp_7;
   case 198:
     r0 = s.retval;
@@ -5678,7 +5678,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 408; s.pc = 202; return s.tmp_4;
   case 202:
     r0 = s.retval;
@@ -5688,7 +5688,7 @@ switch (step) {
     r0 = (s.tmp_2 + 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 409; s.pc = 203; return s.tmp_6;
   case 203:
     r0 = s.retval;
@@ -5705,14 +5705,14 @@ switch (step) {
     r0 = s.retval;
   case 41:
   case 42:
-    r0 = (globals.astronautDirection___59127 == 4);
+    r0 = (globals.astronautDirection___61472 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 43; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 412; s.pc = 206; return s.tmp_4;
   case 206:
     r0 = s.retval;
@@ -5720,7 +5720,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 413; s.pc = 207; return s.tmp_7;
   case 207:
     r0 = s.retval;
@@ -5745,7 +5745,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 417; s.pc = 211; return s.tmp_3;
   case 211:
     r0 = s.retval;
@@ -5753,7 +5753,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 418; s.pc = 212; return s.tmp_6;
   case 212:
     r0 = s.retval;
@@ -5799,14 +5799,14 @@ switch (step) {
     s.tmp_3 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_3);
     if (!r0) { step = 57; continue; }
-    r0 = (globals.astronautDirection___59127 == 1);
+    r0 = (globals.astronautDirection___61472 == 1);
     s.tmp_4 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_4);
     if (!r0) { step = 49; continue; }
     s.tmp_5 = tiles_setTileAt__P32353_mk(s);
     s.tmp_6 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_9 = Sprite_x__P31942_mk(s);
-    s.tmp_9.arg0 = globals.astronaut___59124;
+    s.tmp_9.arg0 = globals.astronaut___61469;
     s.callLocIdx = 421; s.pc = 217; return s.tmp_9;
   case 217:
     r0 = s.retval;
@@ -5816,7 +5816,7 @@ switch (step) {
     r0 = (s.tmp_7 - 1);
     s.tmp_6.arg0 = r0;
     s.tmp_11 = Sprite_y__P31944_mk(s);
-    s.tmp_11.arg0 = globals.astronaut___59124;
+    s.tmp_11.arg0 = globals.astronaut___61469;
     s.callLocIdx = 422; s.pc = 218; return s.tmp_11;
   case 218:
     r0 = s.retval;
@@ -5839,7 +5839,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 426; s.pc = 222; return s.tmp_4;
   case 222:
     r0 = s.retval;
@@ -5849,7 +5849,7 @@ switch (step) {
     r0 = (s.tmp_2 - 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 427; s.pc = 223; return s.tmp_6;
   case 223:
     r0 = s.retval;
@@ -5866,14 +5866,14 @@ switch (step) {
     r0 = s.retval;
   case 49:
   case 50:
-    r0 = (globals.astronautDirection___59127 == 2);
+    r0 = (globals.astronautDirection___61472 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 51; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 430; s.pc = 226; return s.tmp_4;
   case 226:
     r0 = s.retval;
@@ -5881,7 +5881,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 431; s.pc = 227; return s.tmp_7;
   case 227:
     r0 = s.retval;
@@ -5906,7 +5906,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 435; s.pc = 231; return s.tmp_3;
   case 231:
     r0 = s.retval;
@@ -5914,7 +5914,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 436; s.pc = 232; return s.tmp_6;
   case 232:
     r0 = s.retval;
@@ -5933,14 +5933,14 @@ switch (step) {
     r0 = s.retval;
   case 51:
   case 52:
-    r0 = (globals.astronautDirection___59127 == 3);
+    r0 = (globals.astronautDirection___61472 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 53; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_5 = Sprite_x__P31942_mk(s);
-    s.tmp_5.arg0 = globals.astronaut___59124;
+    s.tmp_5.arg0 = globals.astronaut___61469;
     s.callLocIdx = 439; s.pc = 235; return s.tmp_5;
   case 235:
     r0 = s.retval;
@@ -5950,7 +5950,7 @@ switch (step) {
     r0 = (s.tmp_3 + 1);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 440; s.pc = 236; return s.tmp_7;
   case 236:
     r0 = s.retval;
@@ -5973,7 +5973,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 444; s.pc = 240; return s.tmp_4;
   case 240:
     r0 = s.retval;
@@ -5983,7 +5983,7 @@ switch (step) {
     r0 = (s.tmp_2 + 1);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 445; s.pc = 241; return s.tmp_6;
   case 241:
     r0 = s.retval;
@@ -6000,14 +6000,14 @@ switch (step) {
     r0 = s.retval;
   case 53:
   case 54:
-    r0 = (globals.astronautDirection___59127 == 4);
+    r0 = (globals.astronautDirection___61472 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 55; continue; }
     s.tmp_1 = tiles_setTileAt__P32353_mk(s);
     s.tmp_2 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_4 = Sprite_x__P31942_mk(s);
-    s.tmp_4.arg0 = globals.astronaut___59124;
+    s.tmp_4.arg0 = globals.astronaut___61469;
     s.callLocIdx = 448; s.pc = 244; return s.tmp_4;
   case 244:
     r0 = s.retval;
@@ -6015,7 +6015,7 @@ switch (step) {
     r0 = (s.tmp_3 / 16);
     s.tmp_2.arg0 = r0;
     s.tmp_7 = Sprite_y__P31944_mk(s);
-    s.tmp_7.arg0 = globals.astronaut___59124;
+    s.tmp_7.arg0 = globals.astronaut___61469;
     s.callLocIdx = 449; s.pc = 245; return s.tmp_7;
   case 245:
     r0 = s.retval;
@@ -6040,7 +6040,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P32354_mk(s);
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_3 = Sprite_x__P31942_mk(s);
-    s.tmp_3.arg0 = globals.astronaut___59124;
+    s.tmp_3.arg0 = globals.astronaut___61469;
     s.callLocIdx = 453; s.pc = 249; return s.tmp_3;
   case 249:
     r0 = s.retval;
@@ -6048,7 +6048,7 @@ switch (step) {
     r0 = (s.tmp_2 / 16);
     s.tmp_1.arg0 = r0;
     s.tmp_6 = Sprite_y__P31944_mk(s);
-    s.tmp_6.arg0 = globals.astronaut___59124;
+    s.tmp_6.arg0 = globals.astronaut___61469;
     s.callLocIdx = 454; s.pc = 250; return s.tmp_6;
   case 250:
     r0 = s.retval;
@@ -6077,12 +6077,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P59885.info = {"start":183304,"length":6333,"line":2249,"column":8,"endLine":2344,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P62230.info = {"start":183304,"length":6333,"line":2249,"column":8,"endLine":2344,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P59885_mk(s) {
+function inline__P62230_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P59885, depth: s.depth + 1,
+        parent: s, fn: inline__P62230, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6103,7 +6103,7 @@ function inline__P59885_mk(s) {
 
 
 
-function inline__P60376(s) {
+function inline__P62721(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6113,15 +6113,15 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.selectPlace___59313 == globals.BODY_SELECTION___59763);
+    r0 = (globals.selectPlace___61658 == globals.BODY_SELECTION___62108);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
-    r0 = (globals.bodyPlace___59210 == 1);
+    r0 = (globals.bodyPlace___61555 == 1);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 3; continue; }
-    globals.fuel___59322 = (1);
+    globals.fuel___61667 = (1);
     s.tmp_1 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_1.arg0 = globals.right___31705;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C31777_VT)) failedCast(s.tmp_1.arg0);
@@ -6132,8 +6132,8 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_2 = changeBody__P59194_mk(s);
-    s.tmp_2.arg0 = globals.normalBodyImage___59784;
+    s.tmp_2 = changeBody__P61539_mk(s);
+    s.tmp_2.arg0 = globals.normalBodyImage___62129;
     s.tmp_2.arg1 = 2;
     s.callLocIdx = 458; s.pc = 16; return s.tmp_2;
   case 16:
@@ -6142,11 +6142,11 @@ switch (step) {
   case 2:
   case 3:
   case 4:
-    r0 = (globals.bodyPlace___59210 == 2);
+    r0 = (globals.bodyPlace___61555 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
-    globals.fuel___59322 = (2);
+    globals.fuel___61667 = (2);
     s.tmp_1 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_1.arg0 = globals.right___31705;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C31777_VT)) failedCast(s.tmp_1.arg0);
@@ -6157,8 +6157,8 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
-    s.tmp_2 = changeBody__P59194_mk(s);
-    s.tmp_2.arg0 = globals.modernBodyImage___59787;
+    s.tmp_2 = changeBody__P61539_mk(s);
+    s.tmp_2.arg0 = globals.modernBodyImage___62132;
     s.tmp_2.arg1 = 3;
     s.callLocIdx = 459; s.pc = 18; return s.tmp_2;
   case 18:
@@ -6167,11 +6167,11 @@ switch (step) {
   case 6:
   case 7:
   case 8:
-    r0 = (globals.enginePlace___59158 == 3);
+    r0 = (globals.enginePlace___61503 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
-    globals.fuel___59322 = (3);
+    globals.fuel___61667 = (3);
     s.tmp_1 = controller_Button__C31777_v0_1_mk(s);
     s.tmp_1.arg0 = globals.right___31705;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C31777_VT)) failedCast(s.tmp_1.arg0);
@@ -6182,8 +6182,8 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
-    s.tmp_2 = changeBody__P59194_mk(s);
-    s.tmp_2.arg0 = globals.scrapBodyImage___59781;
+    s.tmp_2 = changeBody__P61539_mk(s);
+    s.tmp_2.arg0 = globals.scrapBodyImage___62126;
     s.tmp_2.arg1 = 1;
     s.callLocIdx = 460; s.pc = 20; return s.tmp_2;
   case 20:
@@ -6198,12 +6198,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P60376.info = {"start":189647,"length":573,"line":2345,"column":8,"endLine":2366,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P62721.info = {"start":189647,"length":573,"line":2345,"column":8,"endLine":2366,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P60376_mk(s) {
+function inline__P62721_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P60376, depth: s.depth + 1,
+        parent: s, fn: inline__P62721, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6214,7 +6214,7 @@ function inline__P60376_mk(s) {
 
 
 
-function inline__P60402(s) {
+function inline__P62747(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6224,11 +6224,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.selectPlace___59313 == globals.TIP_SELECTION___59765);
+    r0 = (globals.selectPlace___61658 == globals.TIP_SELECTION___62110);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
-    r0 = (globals.tipPlace___59310 == 1);
+    r0 = (globals.tipPlace___61655 == 1);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 3; continue; }
@@ -6242,18 +6242,18 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 1; continue; }
-    s.tmp_4 = changeTip__P59441_mk(s);
-    s.tmp_4.arg0 = globals.normalTipImage___59793;
+    s.tmp_4 = changeTip__P61786_mk(s);
+    s.tmp_4.arg0 = globals.normalTipImage___62138;
     s.tmp_4.arg1 = 2;
     s.callLocIdx = 462; s.pc = 16; return s.tmp_4;
   case 16:
     r0 = s.retval;
-    globals.color2___59325 = (2);
+    globals.color2___61670 = (2);
   case 1:
   case 2:
   case 3:
   case 4:
-    r0 = (globals.tipPlace___59310 == 2);
+    r0 = (globals.tipPlace___61655 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
@@ -6267,18 +6267,18 @@ switch (step) {
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 5; continue; }
-    s.tmp_3 = changeTip__P59441_mk(s);
-    s.tmp_3.arg0 = globals.modernTipImage___59796;
+    s.tmp_3 = changeTip__P61786_mk(s);
+    s.tmp_3.arg0 = globals.modernTipImage___62141;
     s.tmp_3.arg1 = 3;
     s.callLocIdx = 463; s.pc = 18; return s.tmp_3;
   case 18:
     r0 = s.retval;
-    globals.color2___59325 = (3);
+    globals.color2___61670 = (3);
   case 5:
   case 6:
   case 7:
   case 8:
-    r0 = (globals.tipPlace___59310 == 3);
+    r0 = (globals.tipPlace___61655 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
@@ -6292,13 +6292,13 @@ switch (step) {
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 9; continue; }
-    s.tmp_3 = changeTip__P59441_mk(s);
-    s.tmp_3.arg0 = globals.scrapTipImage___59790;
+    s.tmp_3 = changeTip__P61786_mk(s);
+    s.tmp_3.arg0 = globals.scrapTipImage___62135;
     s.tmp_3.arg1 = 1;
     s.callLocIdx = 464; s.pc = 20; return s.tmp_3;
   case 20:
     r0 = s.retval;
-    globals.color2___59325 = (1);
+    globals.color2___61670 = (1);
   case 9:
   case 10:
   case 11:
@@ -6309,12 +6309,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P60402.info = {"start":190230,"length":579,"line":2367,"column":8,"endLine":2388,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P62747.info = {"start":190230,"length":579,"line":2367,"column":8,"endLine":2388,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P60402_mk(s) {
+function inline__P62747_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P60402, depth: s.depth + 1,
+        parent: s, fn: inline__P62747, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6327,7 +6327,7 @@ function inline__P60402_mk(s) {
 
 
 
-function inline__P60428(s) {
+function inline__P62773(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6337,7 +6337,7 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.selectPlace___59313 == globals.ENGINE_SELECTION___59316);
+    r0 = (globals.selectPlace___61658 == globals.ENGINE_SELECTION___61661);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
@@ -6351,9 +6351,9 @@ switch (step) {
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 1; continue; }
-    globals.selectPlace___59313 = (globals.BODY_SELECTION___59763);
+    globals.selectPlace___61658 = (globals.BODY_SELECTION___62108);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.arrows___59328;
+    s.tmp_0.arg0 = globals.arrows___61673;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 61;
     s.callLocIdx = 466; s.pc = 32; return s.tmp_0;
@@ -6368,7 +6368,7 @@ switch (step) {
   case 2:
   case 3:
   case 4:
-    r0 = (globals.selectPlace___59313 == globals.BODY_SELECTION___59763);
+    r0 = (globals.selectPlace___61658 == globals.BODY_SELECTION___62108);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
@@ -6382,9 +6382,9 @@ switch (step) {
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 5; continue; }
-    globals.selectPlace___59313 = (globals.TIP_SELECTION___59765);
+    globals.selectPlace___61658 = (globals.TIP_SELECTION___62110);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.arrows___59328;
+    s.tmp_0.arg0 = globals.arrows___61673;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 25;
     s.callLocIdx = 468; s.pc = 35; return s.tmp_0;
@@ -6399,7 +6399,7 @@ switch (step) {
   case 6:
   case 7:
   case 8:
-    r0 = (globals.selectPlace___59313 == globals.TIP_SELECTION___59765);
+    r0 = (globals.selectPlace___61658 == globals.TIP_SELECTION___62110);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 29; continue; }
@@ -6413,7 +6413,7 @@ switch (step) {
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 27; continue; }
-    globals.selectPlace___59313 = (globals.TRIP_IN_SPACE___59767);
+    globals.selectPlace___61658 = (globals.TRIP_IN_SPACE___62112);
     s.tmp_0 = game_showLongText__P32548_mk(s);
     s.tmp_0.arg0 = "Lets go!!!";
     s.tmp_0.arg1 = 5;
@@ -6421,85 +6421,85 @@ switch (step) {
   case 38:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P32473_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex60460);
+    r0 = pxsim.image.ofBuffer(_hex62805);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 471; s.pc = 39; return s.tmp_0;
   case 39:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.body___59201;
+    s.tmp_0.arg0 = globals.body___61546;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 472; s.pc = 40; return s.tmp_0;
   case 40:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.engine___59149;
+    s.tmp_0.arg0 = globals.engine___61494;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 473; s.pc = 41; return s.tmp_0;
   case 41:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.tip___59299;
+    s.tmp_0.arg0 = globals.tip___61644;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 474; s.pc = 42; return s.tmp_0;
   case 42:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.arrows___59328;
+    s.tmp_0.arg0 = globals.arrows___61673;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 475; s.pc = 43; return s.tmp_0;
   case 43:
     r0 = s.retval;
-    r0 = (globals.color2___59325 == 1);
+    r0 = (globals.color2___61670 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
     s.tmp_1 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex60482);
+    r0 = pxsim.image.ofBuffer(_hex62827);
     s.tmp_1.arg0 = r0;
-    s.tmp_1.arg1 = globals.rocketKind___59094;
+    s.tmp_1.arg1 = globals.rocketKind___61439;
     s.callLocIdx = 476; s.pc = 44; return s.tmp_1;
   case 44:
     r0 = s.retval;
-    globals.rocket___59389 = (r0);
-    globals.color2___59325 = (4);
+    globals.rocket___61734 = (r0);
+    globals.color2___61670 = (4);
   case 9:
   case 10:
-    r0 = (globals.color2___59325 == 2);
+    r0 = (globals.color2___61670 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
     s.tmp_1 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex60490);
+    r0 = pxsim.image.ofBuffer(_hex62835);
     s.tmp_1.arg0 = r0;
-    s.tmp_1.arg1 = globals.rocketKind___59094;
+    s.tmp_1.arg1 = globals.rocketKind___61439;
     s.callLocIdx = 477; s.pc = 45; return s.tmp_1;
   case 45:
     r0 = s.retval;
-    globals.rocket___59389 = (r0);
-    globals.color2___59325 = (5);
+    globals.rocket___61734 = (r0);
+    globals.color2___61670 = (5);
   case 11:
   case 12:
-    r0 = (globals.color2___59325 == 3);
+    r0 = (globals.color2___61670 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
     s.tmp_1 = sprites_create__P31863_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex60498);
+    r0 = pxsim.image.ofBuffer(_hex62843);
     s.tmp_1.arg0 = r0;
-    s.tmp_1.arg1 = globals.rocketKind___59094;
+    s.tmp_1.arg1 = globals.rocketKind___61439;
     s.callLocIdx = 478; s.pc = 46; return s.tmp_1;
   case 46:
     r0 = s.retval;
-    globals.rocket___59389 = (r0);
-    globals.color2___59325 = (6);
+    globals.rocket___61734 = (r0);
+    globals.color2___61670 = (6);
   case 13:
   case 14:
-    r0 = (globals.fuel___59322 == 1);
+    r0 = (globals.fuel___61667 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 15; continue; }
@@ -6508,10 +6508,10 @@ switch (step) {
     s.callLocIdx = 479; s.pc = 47; return s.tmp_1;
   case 47:
     r0 = s.retval;
-    globals.fuel___59322 = (4);
+    globals.fuel___61667 = (4);
   case 15:
   case 16:
-    r0 = (globals.fuel___59322 == 2);
+    r0 = (globals.fuel___61667 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 17; continue; }
@@ -6520,10 +6520,10 @@ switch (step) {
     s.callLocIdx = 480; s.pc = 48; return s.tmp_1;
   case 48:
     r0 = s.retval;
-    globals.fuel___59322 = (5);
+    globals.fuel___61667 = (5);
   case 17:
   case 18:
-    r0 = (globals.fuel___59322 == 3);
+    r0 = (globals.fuel___61667 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 19; continue; }
@@ -6532,15 +6532,15 @@ switch (step) {
     s.callLocIdx = 481; s.pc = 49; return s.tmp_1;
   case 49:
     r0 = s.retval;
-    globals.fuel___59322 = (6);
+    globals.fuel___61667 = (6);
   case 19:
   case 20:
-    r0 = (globals.velocity___59319 == 1);
+    r0 = (globals.velocity___61664 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 21; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 4;
     s.tmp_1.arg2 = 4;
     s.callLocIdx = 482; s.pc = 50; return s.tmp_1;
@@ -6548,12 +6548,12 @@ switch (step) {
     r0 = s.retval;
   case 21:
   case 22:
-    r0 = (globals.velocity___59319 == 2);
+    r0 = (globals.velocity___61664 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 23; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 6;
     s.tmp_1.arg2 = 6;
     s.callLocIdx = 483; s.pc = 51; return s.tmp_1;
@@ -6561,12 +6561,12 @@ switch (step) {
     r0 = s.retval;
   case 23:
   case 24:
-    r0 = (globals.velocity___59319 == 3);
+    r0 = (globals.velocity___61664 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 25; continue; }
     s.tmp_1 = controller_moveSprite__P31755_mk(s);
-    s.tmp_1.arg0 = globals.rocket___59389;
+    s.tmp_1.arg0 = globals.rocket___61734;
     s.tmp_1.arg1 = 8;
     s.tmp_1.arg2 = 8;
     s.callLocIdx = 484; s.pc = 52; return s.tmp_1;
@@ -6575,7 +6575,7 @@ switch (step) {
   case 25:
   case 26:
     s.tmp_0 = tiles_placeOnTile__P32361_mk(s);
-    s.tmp_0.arg0 = globals.rocket___59389;
+    s.tmp_0.arg0 = globals.rocket___61734;
     s.tmp_1 = tiles_getTileLocation__P32355_mk(s);
     s.tmp_1.arg0 = 4;
     s.tmp_1.arg1 = 4;
@@ -6597,7 +6597,7 @@ switch (step) {
   case 55:
     r0 = s.retval;
     s.tmp_0 = scene_cameraFollowSprite__P32478_mk(s);
-    s.tmp_0.arg0 = globals.rocket___59389;
+    s.tmp_0.arg0 = globals.rocket___61734;
     s.callLocIdx = 489; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
@@ -6609,27 +6609,27 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P60428.info = {"start":190819,"length":23484,"line":2389,"column":8,"endLine":2581,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P62773.info = {"start":190819,"length":23484,"line":2389,"column":8,"endLine":2581,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P60428_mk(s) {
+function inline__P62773_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P60428, depth: s.depth + 1,
+        parent: s, fn: inline__P62773, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
 } }
 
-const _hex60460 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
-const _hex60482 = pxsim.BufferMethods.createBufferFromHex("8704020002000000e5000000ee000000")
-const _hex60490 = pxsim.BufferMethods.createBufferFromHex("87040200020000004500000022000000")
-const _hex60498 = pxsim.BufferMethods.createBufferFromHex("87040200020000009100000068000000")
+const _hex62805 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex62827 = pxsim.BufferMethods.createBufferFromHex("8704020002000000e5000000ee000000")
+const _hex62835 = pxsim.BufferMethods.createBufferFromHex("87040200020000004500000022000000")
+const _hex62843 = pxsim.BufferMethods.createBufferFromHex("87040200020000009100000068000000")
 
 
 
 
-function changeTip__P59441(s) {
+function changeTip__P61786(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6645,7 +6645,7 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.tip___59299;
+    s.tmp_0.arg0 = globals.tip___61644;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 172; s.pc = 1; return s.tmp_0;
@@ -6657,15 +6657,15 @@ switch (step) {
     s.callLocIdx = 173; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
-    globals.tip___59299 = (r0);
+    globals.tip___61644 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.tip___59299;
+    s.tmp_0.arg0 = globals.tip___61644;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 20;
     s.callLocIdx = 174; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    globals.tipPlace___59310 = (s.arg1);
+    globals.tipPlace___61655 = (s.arg1);
     s.tmp_0 = pause__P30001_mk(s);
     s.tmp_0.arg0 = 200;
     s.callLocIdx = 175; s.pc = 4; return s.tmp_0;
@@ -6675,12 +6675,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-changeTip__P59441.info = {"start":84979,"length":216,"line":861,"column":0,"endLine":867,"endColumn":1,"fileName":"main.ts","functionName":"changeTip","argumentNames":["newTipImage","newTipPlace"]}
+changeTip__P61786.info = {"start":84979,"length":216,"line":861,"column":0,"endLine":867,"endColumn":1,"fileName":"main.ts","functionName":"changeTip","argumentNames":["newTipImage","newTipPlace"]}
 
-function changeTip__P59441_mk(s) {
+function changeTip__P61786_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: changeTip__P59441, depth: s.depth + 1,
+        parent: s, fn: changeTip__P61786, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -6691,7 +6691,7 @@ function changeTip__P59441_mk(s) {
 
 
 
-function changeBody__P59194(s) {
+function changeBody__P61539(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6707,7 +6707,7 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.body___59201;
+    s.tmp_0.arg0 = globals.body___61546;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 109; s.pc = 1; return s.tmp_0;
@@ -6719,15 +6719,15 @@ switch (step) {
     s.callLocIdx = 110; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
-    globals.body___59201 = (r0);
+    globals.body___61546 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.body___59201;
+    s.tmp_0.arg0 = globals.body___61546;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 61;
     s.callLocIdx = 111; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    globals.bodyPlace___59210 = (s.arg1);
+    globals.bodyPlace___61555 = (s.arg1);
     s.tmp_0 = pause__P30001_mk(s);
     s.tmp_0.arg0 = 200;
     s.callLocIdx = 112; s.pc = 4; return s.tmp_0;
@@ -6737,12 +6737,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-changeBody__P59194.info = {"start":26943,"length":225,"line":263,"column":0,"endLine":269,"endColumn":1,"fileName":"main.ts","functionName":"changeBody","argumentNames":["newBodyImage","newBodyPlace"]}
+changeBody__P61539.info = {"start":26943,"length":225,"line":263,"column":0,"endLine":269,"endColumn":1,"fileName":"main.ts","functionName":"changeBody","argumentNames":["newBodyImage","newBodyPlace"]}
 
-function changeBody__P59194_mk(s) {
+function changeBody__P61539_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: changeBody__P59194, depth: s.depth + 1,
+        parent: s, fn: changeBody__P61539, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -7521,7 +7521,7 @@ function Sprite_x__P31942_mk(s) {
 
 
 
-function changeEngine__P59142(s) {
+function changeEngine__P61487(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7537,7 +7537,7 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = sprites_destroy__P31865_mk(s);
-    s.tmp_0.arg0 = globals.engine___59149;
+    s.tmp_0.arg0 = globals.engine___61494;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 97; s.pc = 1; return s.tmp_0;
@@ -7549,15 +7549,15 @@ switch (step) {
     s.callLocIdx = 98; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
-    globals.engine___59149 = (r0);
+    globals.engine___61494 = (r0);
     s.tmp_0 = Sprite_setPosition__P31997_mk(s);
-    s.tmp_0.arg0 = globals.engine___59149;
+    s.tmp_0.arg0 = globals.engine___61494;
     s.tmp_0.arg1 = 76;
     s.tmp_0.arg2 = 101;
     s.callLocIdx = 99; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    globals.enginePlace___59158 = (s.arg1);
+    globals.enginePlace___61503 = (s.arg1);
     s.tmp_0 = pause__P30001_mk(s);
     s.tmp_0.arg0 = 200;
     s.callLocIdx = 100; s.pc = 4; return s.tmp_0;
@@ -7567,12 +7567,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-changeEngine__P59142.info = {"start":4662,"length":244,"line":114,"column":0,"endLine":120,"endColumn":1,"fileName":"main.ts","functionName":"changeEngine","argumentNames":["newEngineImage","newEnginePlace"]}
+changeEngine__P61487.info = {"start":4662,"length":244,"line":114,"column":0,"endLine":120,"endColumn":1,"fileName":"main.ts","functionName":"changeEngine","argumentNames":["newEngineImage","newEnginePlace"]}
 
-function changeEngine__P59142_mk(s) {
+function changeEngine__P61487_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: changeEngine__P59142, depth: s.depth + 1,
+        parent: s, fn: changeEngine__P61487, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -77314,7 +77314,7 @@ const sprites_BaseSpriteSayRenderer__C31847_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["transparency16___34452","tile7___34459","tile8___34460","tile9___34461","tile10___34462","tile11___34463","tile14___34466","tile15___34467","tile16___34468","tile17___34469","tile18___34470","tile12___34464","tile13___34465","tile1___34453","tile2___34454","tile3___34455","tile4___34456","tile5___34457","tile6___34458","tile22___34474","tile19___34471","tile20___34472","tile21___34473","mouseKind___59082","startKind___59085","marsButtonkind___59088","rockColKind___59091","rocketKind___59094","bigRocketKind___59097","miniRocketMars___59100","creativeKind___59103","RocksLMarsKind___59106","astronaut___59124","astronautDirection___59127","Menu___59174","marsButton___59183","mouse___59228","rockCollectionButton___59237","creativeModeButton___59246","marsMode___59278","engine___59149","body___59201","tip___59299","enginePlace___59158","bodyPlace___59210","tipPlace___59310","selectPlace___59313","ENGINE_SELECTION___59316","velocity___59319","fuel___59322","color2___59325","arrows___59328","ON_MARS___59383","rocket___59389","rocksLeftinMars___59412","Juanito___59495","rocketMars___59520","START___59760","scrapEngineImage___59772","modernEngineImage___59775","normalEngineImage___59778","scrapBodyImage___59781","normalBodyImage___59784","modernBodyImage___59787","scrapTipImage___59790","normalTipImage___59793","modernTipImage___59796","TRIP_IN_SPACE___59767","BODY_SELECTION___59763","TIP_SELECTION___59765"])
+const breakpoints = setupDebugger(1, ["transparency16___34452","tile7___34459","tile8___34460","tile9___34461","tile10___34462","tile11___34463","tile14___34466","tile15___34467","tile16___34468","tile17___34469","tile18___34470","tile12___34464","tile13___34465","tile1___34453","tile2___34454","tile3___34455","tile4___34456","tile5___34457","tile6___34458","tile22___34474","tile19___34471","tile20___34472","tile21___34473","mouseKind___61427","startKind___61430","marsButtonkind___61433","rockColKind___61436","rocketKind___61439","bigRocketKind___61442","miniRocketMars___61445","creativeKind___61448","RocksLMarsKind___61451","astronaut___61469","astronautDirection___61472","Menu___61519","marsButton___61528","mouse___61573","rockCollectionButton___61582","creativeModeButton___61591","marsMode___61623","engine___61494","body___61546","tip___61644","enginePlace___61503","bodyPlace___61555","tipPlace___61655","selectPlace___61658","ENGINE_SELECTION___61661","velocity___61664","fuel___61667","color2___61670","arrows___61673","ON_MARS___61728","rocket___61734","rocksLeftinMars___61757","Juanito___61840","rocketMars___61865","START___62105","scrapEngineImage___62117","modernEngineImage___62120","normalEngineImage___62123","scrapBodyImage___62126","normalBodyImage___62129","modernBodyImage___62132","scrapTipImage___62135","normalTipImage___62138","modernTipImage___62141","TRIP_IN_SPACE___62112","BODY_SELECTION___62108","TIP_SELECTION___62110"])
 
-return _main___P60827
+return _main___P63172
 })
