@@ -112,6 +112,11 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
         )
     }
 })
+scene.onOverlapTile(SpriteKind.rocketKind, assets.tile`myTile22`, function (sprite, location) {
+    info.stopCountdown()
+    game.showLongText("Be careful! We have turbulence, avoid the asteroids", DialogLayout.Full)
+    tiles.setCurrentTilemap(tilemap`level9`)
+})
 function changeEngine (newEngineImage: Image, newEnginePlace: number) {
     sprites.destroy(engine)
     engine = sprites.create(newEngineImage, SpriteKind.Player)
@@ -694,6 +699,11 @@ sprites.onOverlap(SpriteKind.mouseKind, SpriteKind.rockColKind, function (sprite
             `)
     }
 })
+scene.onOverlapTile(SpriteKind.rocketKind, assets.tile`myTile23`, function (sprite, location) {
+    info.stopCountdown()
+    game.showLongText("Be careful! We have turbulence, avoid the asteroids", DialogLayout.Full)
+    tiles.setCurrentTilemap(tilemap`level9`)
+})
 controller.down.onEvent(ControllerButtonEvent.Released, function () {
     if (astronaut) {
         animation.stopAnimation(animation.AnimationTypes.All, astronaut)
@@ -829,8 +839,8 @@ scene.onOverlapTile(SpriteKind.rocketKind, assets.tile`myTile1`, function (sprit
         controller.moveSprite(astronaut, 50, 50)
         scene.cameraFollowSprite(astronaut)
         rocksLeftinMars = statusbars.create(50, 5, StatusBarKind.RocksLMarsKind)
-        rocksLeftinMars.max = 35
-        rocksLeftinMars.value = 35
+        rocksLeftinMars.max = 15
+        rocksLeftinMars.value = 15
         rocksLeftinMars.setLabel("Rocks")
         rocksLeftinMars.positionDirection(CollisionDirection.Top)
     } else {
@@ -1125,6 +1135,11 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         )
     }
 })
+scene.onOverlapTile(SpriteKind.rocketKind, assets.tile`myTile21`, function (sprite, location) {
+    info.stopCountdown()
+    game.showLongText("Be careful! We have turbulence, avoid the asteroids", DialogLayout.Full)
+    tiles.setCurrentTilemap(tilemap`level9`)
+})
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
     game.showLongText("Oh no! Juanito caught you!", DialogLayout.Full)
     game.gameOver(false)
@@ -1253,12 +1268,10 @@ scene.onOverlapTile(SpriteKind.miniRocketMars, assets.tile`myTile0`, function (s
     game.showLongText("You have brought the rocks safe to the Earth! You win!", DialogLayout.Full)
     game.gameOver(true)
 })
-/**
- * cambiar
- */
+// cambiar
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile10`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`myTile7`)
-    rocksLeftinMars.value += -35
+    rocksLeftinMars.value += -1
 })
 sprites.onOverlap(SpriteKind.mouseKind, SpriteKind.creativeKind, function (sprite, otherSprite) {
     if (controller.A.isPressed()) {
@@ -1527,6 +1540,11 @@ sprites.onOverlap(SpriteKind.mouseKind, SpriteKind.creativeKind, function (sprit
             `)
     }
 })
+scene.onOverlapTile(SpriteKind.rocketKind, assets.tile`myTile24`, function (sprite, location) {
+    info.stopCountdown()
+    game.showLongText("Be careful! We have turbulence, avoid the asteroids", DialogLayout.Full)
+    tiles.setCurrentTilemap(tilemap`level9`)
+})
 sprites.onOverlap(SpriteKind.bigRocketKind, SpriteKind.Player, function (sprite, otherSprite) {
     sprites.destroy(rocketMars)
     sprites.destroy(Juanito)
@@ -1659,19 +1677,19 @@ sprites.onOverlap(SpriteKind.bigRocketKind, SpriteKind.Player, function (sprite,
         rocket = sprites.create(img`
             5 e 
             e e 
-            `, SpriteKind.Player)
+            `, SpriteKind.miniRocketMars)
     }
     if (color2 == 5) {
         rocket = sprites.create(img`
             5 2 
             4 2 
-            `, SpriteKind.Player)
+            `, SpriteKind.miniRocketMars)
     }
     if (color2 == 6) {
         rocket = sprites.create(img`
             1 8 
             9 6 
-            `, SpriteKind.Player)
+            `, SpriteKind.miniRocketMars)
     }
     if (velocity == 1) {
         controller.moveSprite(rocket, 3, 3)
@@ -2125,19 +2143,19 @@ if (controller.A.isPressed()) {
         ffffffffffffffffffffff3b3bfffffffffffffffffffffffffffffffffffffffffffffff3bffffffffffffffffffffffffffffffffffffffffbbfffffffbffffffffffffffffffffbffffffffffffff
         fffffffffffff3ffffffff3bffbffffffffffffffffffffffffffffffffffffffffffffffb3fffffffffffffbbbbbbbbbfffffffffffffffffffb3ffffffbffffffffffffffffffff3bfffffffffffff
         fffffffffffffbfffffffff3bffbffffffffffffffffbbbbbbbbb333fffffffffffffffffbbfffffbbbbbbbbfff3333333ffffffffffffffffffb3ffffffbfffffffffffffffffffffbfffffffffffff
-        ffffffffffff3b3ffffffff3bfffbffffffff3ffffffbb3fffffffffffffffff3fffffffffbfffff33333333333ffffffffffffffffffffffffffbffffffbfffffffffffffffffffffbfffffffffffff
-        ffffffffffffbb3ffffffff3bfff3bfffffff3ffffff3b3ffffffffffffffffbf3ffffffffbffffffff333fffffffffffffffffffffffffffffffb3fffffbfffffffffffffffffffffbfffffffffffff
-        ffffffffffffbbf3fffffff3bffff3bffffff3ffffffbb3ffffffffffffffffbbbffffffffbfffffffffffbfffffffffffffffffffffffffffffffbfffffbfffffffffffffffffffffb3ffffffffffff
-        fffffffffff3bbf3fffffff3bfffff3bfffff3bffffb3fbffffffffffffffffbffbbffffff3bffffffffffbfffffffffffffffff3fffffffffffffbfffffbfffffffffffffffffffffb3ffffffffffff
-        fffffffffffbffb3fffffff3bfffffbffffff3bfffb3ff3bbb3ffffffffffffbff3bffffff3bfffffffffb3fffffffffffffffff3bffffffffffffb3ffffbffffffffffffffffffffffb3fffffffffff
-        ffffffffffb3fffbfffffff3bfffffbfffffffbfffbffff3bffffffffffffffbfffbffffff3bfffffffffb3fffffffffffffffff3bfffffffffffffbffffbffffffffffffffffffffffb3fffffffffff
-        fffffffffb3fffffbffffff3bfffffb3ffffff3bffbfffffbfffffffffffff3bffffbfffff3bfffffffffb3fffffffffffffffff3bfffffffffffffbfff3bffffffffffffffffffffffbf3ffffffffff
-        fffffffffb3f3b33b3fffff3bffffffbffffff3bffbfffffbfffffffffffff3bffffb3ffff3bfffffffffb3fffffffffffffffff3bfffffffffffffbfff3bfffffffffffffffffffffffb3ffffffffff
-        ffffffffb3fffffffb3ffff3bffffffbffffff3fbb1fffff3bffffffffffff3bffffbf3ffffbfffffffffbffffffffffffffffff3bffffffffffff3bffffbfbbffffffffffff1fffffffb3ffffffffff
-        ffffffffb3fffffffbfffff3bffffffbfffffff333fffffff3bfff3bbfffff3bfffffbf3ffb3fffffffffbffffffffffffffffff3bffffffffffff3bffffbfb3bbffffffffffffffffffbfffffffffff
-        ffffffff3ffffffffb3ffff3bffffffbfffffffffffffffff33bbbbfffffff3bffffffbb33b3fffffffffbffffffffffffffffff3bffffffffffff3bffffbfb3f3bbfffffffffffffffbffffffffffff
-        ffffffff3fffffffffbffff3bffffff3bfffffffffffffffffffffffffffff3bffffffffbbbffffffffffbffffffffffffffffff3bffffffffffff3bffffbffbb3ffbffffffffffffffbffffffffffff
-        ffffffff3fffffffffbffff3bffffff3bfffffffffffffffffffffffffffff3bfffffffffffffffffffffbfffffffffffffffffff3bfffffffffff3bffffbfff3bbfbfffffffffffffbfffffffffffff
+        ffffffffffff313ffffffff3bfffbffffffff3ffffffbb3fffffffffffffffff3fffffffffbfffff33333333333ffffffffffffffffffffffffffbffffffbfffffffffffffffffffffbfffffffffffff
+        ffffffffffffb11ffffffff3bfff3bfffffff3ffffff3b3ffffffffffffffffbf3ffffffffbffffffff333fffffffffffffffffffffffffffffffb3fffffbfffffffffffffffffffffbfffffffffffff
+        ffffffffffff1113fffffff3bffff3bffffff3ffffffbb3ffffffffffffffffbbbffffffffbfffffffffffbfffffffffffffffffffffffffffffffbfffffbfffffffffffffffffffffb3ffffffffffff
+        fffffffffff31b13fffffff3bfffff3bfffff3bffffb3fbffffffffffffffffbffbbffffff3bffffffffffbfffffffffffffffff3fffffffffffffbfffffbfffffffffffffffffffffb3ffffffffffff
+        fffffffffffb1fb1fffffff3bfffffbffffff3bfffb3ff3bbb3ffffffffffffbff3bffffff3bfffffffffb3fffffffffffffffff3bffffffffffffb3ffffbffffffffffffffffffffffb3fffffffffff
+        ffffffffffb1fff1fffffff3bfffffbfffffffbfffbffff3bffffffffffffffbfffbffffff3bfffffffffb3fffffffffffffffff3bfffffffffffffbffffbffffffffffffffffffffffb3fffffffffff
+        fffffffffb11fff1bffffff3bfffffb3ffffff3bffbfffffbfffffffffffff3bffffbfffff3bfffffffffb3fffffffffffffffff3bfffffffffffffbfff3bffffffffffffffffffffffbf3ffffffffff
+        fffffffffb1f313313fffff3bffffffbffffff3bffbfffffbfffffffffffff3bffffb3ffff3bfffffffffb3fffffffffffffffff3bfffffffffffffbfff3bfffffffffffffffffffffffb3ffffffffff
+        ffffffffb31fffff1b3ffff3bffffffbffffff3fbb1fffff3bffffffffffff3bffffbf3ffffbfffffffffbffffffffffffffffff3bffffffffffff3bffffbfbbffffffffffff1fffffffb3ffffffffff
+        ffffffffb1ffffff1bfffff3bffffffbfffffff333fffffff3bfff3bbfffff3bfffffbf3ffb3fffffffffbffffffffffffffffff3bffffffffffff3bffffbfb3bbffffffffffffffffffbfffffffffff
+        ffffffff1ffffffff13ffff3bffffffbfffffffffffffffff33bbbbfffffff3bffffffbb33b3fffffffffbffffffffffffffffff3bffffffffffff3bffffbfb3f3bbfffffffffffffffbffffffffffff
+        ffffffff1fffffffff1ffff3bffffff3bfffffffffffffffffffffffffffff3bffffffffbbbffffffffffbffffffffffffffffff3bffffffffffff3bffffbffbb3ffbffffffffffffffbffffffffffff
+        ffffffff3fffffffff1ffff3bffffff3bfffffffffffffffffffffffffffff3bfffffffffffffffffffffbfffffffffffffffffff3bfffffffffff3bffffbfff3bbfbfffffffffffffbfffffffffffff
         fffffff3fffffffffffbfff3bffffff3bfffffffffffffffffffffffffffff3bfffffffffffffffffffffbfffffffffffffffffff3bfffffffffff3bffffbffff33bbffffffffffff3bfffffffffffff
         fffffffffffffffffffbbbf3bffffff3bfffffffffffffffffffffffffffff3bffffffffffffffffffff3bfffffffffffffffffff3bfffffffffffbfffffbffffff3bbbfffffff33bbffffffffffffff
         fffffffffffffffffff3fff3bffffff3fbffffffffffffffffffffffffffff3bffffffffffffffffffff3bffffffffffffffffffffbfffffffffffbfffffbfffffffb33bb33333bbffffffffffffffff
@@ -2199,150 +2217,6 @@ if (controller.A.isPressed()) {
     mouse.setStayInScreen(true)
     marsMode = 0
 }
-forever(function () {
-    if (selectPlace == TRIP_IN_SPACE) {
-        if (velocity == 1) {
-            controller.moveSprite(rocket, 3, 3)
-        }
-        if (velocity == 2) {
-            controller.moveSprite(rocket, 5, 5)
-        }
-        if (velocity == 3) {
-            controller.moveSprite(rocket, 5, 5)
-        }
-        if (fuel == 4) {
-            info.startCountdown(27)
-            fuel = 7
-        }
-        if (fuel == 5) {
-            info.startCountdown(32)
-            fuel = 8
-        }
-        if (fuel == 6) {
-            info.startCountdown(38)
-            fuel = 9
-        }
-    }
-})
-forever(function () {
-    if (selectPlace == ENGINE_SELECTION) {
-        arrows.setPosition(76, 101)
-        if (enginePlace == 1) {
-            velocity = 1
-            if (controller.right.isPressed()) {
-                changeEngine(normalEngineImage, 2)
-            }
-        }
-        if (enginePlace == 2) {
-            velocity = 2
-            if (controller.right.isPressed()) {
-                changeEngine(modernEngineImage, 3)
-            }
-        }
-        if (enginePlace == 3) {
-            velocity = 3
-            if (controller.right.isPressed()) {
-                changeEngine(scrapEngineImage, 1)
-            }
-        }
-    }
-})
-forever(function () {
-    if (marsMode == 2 && selectPlace == ON_MARS) {
-        if (astronaut) {
-            if (controller.A.isPressed()) {
-                if (astronautDirection == 1) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile17`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), true)
-                }
-                if (astronautDirection == 2) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile17`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), true)
-                }
-                if (astronautDirection == 3) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile17`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), true)
-                }
-                if (astronautDirection == 4) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile17`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), true)
-                }
-            }
-            if (controller.B.isPressed()) {
-                if (astronautDirection == 1) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile7`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), false)
-                }
-                if (astronautDirection == 2) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile7`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), false)
-                }
-                if (astronautDirection == 3) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile7`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), false)
-                }
-                if (astronautDirection == 4) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile7`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), false)
-                }
-            }
-            if (controller.A.isPressed() && controller.B.isPressed()) {
-                if (astronautDirection == 1) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile18`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), true)
-                }
-                if (astronautDirection == 2) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile18`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), true)
-                }
-                if (astronautDirection == 3) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile18`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), true)
-                }
-                if (astronautDirection == 4) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile18`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), true)
-                }
-            }
-            if (controller.A.isPressed() && controller.down.isPressed()) {
-                if (astronautDirection == 1) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile19`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), false)
-                }
-                if (astronautDirection == 2) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile19`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), false)
-                }
-                if (astronautDirection == 3) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile19`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), false)
-                }
-                if (astronautDirection == 4) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile19`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), false)
-                }
-            }
-            if (controller.A.isPressed() && controller.up.isPressed()) {
-                if (astronautDirection == 1) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile20`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), false)
-                }
-                if (astronautDirection == 2) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile20`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), false)
-                }
-                if (astronautDirection == 3) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile20`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), false)
-                }
-                if (astronautDirection == 4) {
-                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile20`)
-                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), false)
-                }
-            }
-        }
-    }
-})
 forever(function () {
     if (selectPlace == BODY_SELECTION) {
         if (bodyPlace == 1) {
@@ -2577,6 +2451,150 @@ forever(function () {
             tiles.placeOnTile(rocket, tiles.getTileLocation(4, 4))
             tiles.setCurrentTilemap(tilemap`level1`)
             scene.cameraFollowSprite(rocket)
+        }
+    }
+})
+forever(function () {
+    if (selectPlace == TRIP_IN_SPACE) {
+        if (velocity == 1) {
+            controller.moveSprite(rocket, 3, 3)
+        }
+        if (velocity == 2) {
+            controller.moveSprite(rocket, 5, 5)
+        }
+        if (velocity == 3) {
+            controller.moveSprite(rocket, 5, 5)
+        }
+        if (fuel == 4) {
+            info.startCountdown(27)
+            fuel = 7
+        }
+        if (fuel == 5) {
+            info.startCountdown(32)
+            fuel = 8
+        }
+        if (fuel == 6) {
+            info.startCountdown(38)
+            fuel = 9
+        }
+    }
+})
+forever(function () {
+    if (selectPlace == ENGINE_SELECTION) {
+        arrows.setPosition(76, 101)
+        if (enginePlace == 1) {
+            velocity = 1
+            if (controller.right.isPressed()) {
+                changeEngine(normalEngineImage, 2)
+            }
+        }
+        if (enginePlace == 2) {
+            velocity = 2
+            if (controller.right.isPressed()) {
+                changeEngine(modernEngineImage, 3)
+            }
+        }
+        if (enginePlace == 3) {
+            velocity = 3
+            if (controller.right.isPressed()) {
+                changeEngine(scrapEngineImage, 1)
+            }
+        }
+    }
+})
+forever(function () {
+    if (marsMode == 2 && selectPlace == ON_MARS) {
+        if (astronaut) {
+            if (controller.A.isPressed()) {
+                if (astronautDirection == 1) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile17`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), true)
+                }
+                if (astronautDirection == 2) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile17`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), true)
+                }
+                if (astronautDirection == 3) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile17`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), true)
+                }
+                if (astronautDirection == 4) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile17`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), true)
+                }
+            }
+            if (controller.B.isPressed()) {
+                if (astronautDirection == 1) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile7`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), false)
+                }
+                if (astronautDirection == 2) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile7`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), false)
+                }
+                if (astronautDirection == 3) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile7`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), false)
+                }
+                if (astronautDirection == 4) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile7`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), false)
+                }
+            }
+            if (controller.A.isPressed() && controller.B.isPressed()) {
+                if (astronautDirection == 1) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile18`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), true)
+                }
+                if (astronautDirection == 2) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile18`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), true)
+                }
+                if (astronautDirection == 3) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile18`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), true)
+                }
+                if (astronautDirection == 4) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile18`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), true)
+                }
+            }
+            if (controller.A.isPressed() && controller.down.isPressed()) {
+                if (astronautDirection == 1) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile19`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), false)
+                }
+                if (astronautDirection == 2) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile19`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), false)
+                }
+                if (astronautDirection == 3) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile19`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), false)
+                }
+                if (astronautDirection == 4) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile19`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), false)
+                }
+            }
+            if (controller.A.isPressed() && controller.up.isPressed()) {
+                if (astronautDirection == 1) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), assets.tile`myTile20`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 - 1, astronaut.y / 16), false)
+                }
+                if (astronautDirection == 2) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), assets.tile`myTile20`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 - 1), false)
+                }
+                if (astronautDirection == 3) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), assets.tile`myTile20`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16 + 1, astronaut.y / 16), false)
+                }
+                if (astronautDirection == 4) {
+                    tiles.setTileAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), assets.tile`myTile20`)
+                    tiles.setWallAt(tiles.getTileLocation(astronaut.x / 16, astronaut.y / 16 + 1), false)
+                }
+            }
         }
     }
 })
